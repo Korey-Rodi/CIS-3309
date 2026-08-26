@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmRegristration.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
+              "RelativeToolTip": "Form_Demo\\frmRegristration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T17:43:59.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRegristration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.Designer.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
+              "RelativeToolTip": "Form_Demo\\frmRegristration.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T17:23:28.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmRegristration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs [Design]",
+              "RelativeToolTip": "Form_Demo\\frmRegristration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T17:20:29.107Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
