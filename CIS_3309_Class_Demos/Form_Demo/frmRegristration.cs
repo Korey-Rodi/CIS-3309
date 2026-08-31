@@ -20,6 +20,7 @@ namespace Form_Demo
         private void btnProcess_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Hello");
+            // this is a comment in the code
             lblDisplayArea.Text = txtUserInput.Text;
         }
     }
