@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Form_Demo
 {
@@ -46,11 +47,43 @@ namespace Form_Demo
 
         private void txtUserInput_TextChanged(object sender, EventArgs e)
         {
-            //MessageBox.Show("Text Changed '"+ txtUserInput.Text + " ' ");
+
+
         }
-        private void MyHandler(object sender, EventArgs e)
+        // Event handlers can be passed with any object
+        private void MyHandler(object sender, EventArgs e) //This can be used to be generic for any textbox
         {
-            MessageBox.Show("You selceted from the list: " + ddlStateOfResidence.SelectedItem.ToString());
+            // Cast the object to a textbox and store it in variable that can hold the textbox
+            TextBox theTbox = (TextBox)sender;
+
+            String userInput = theTbox.Text;
+            int value = 0;
+
+            if (int.TryParse(userInput, out value) == false)
+            {
+                lblDisplayArea.Text = "You must enter a valid integer integer for " + theTbox.Name; // This is how you can add the objects name
+            }
+            else
+            {
+                lblDisplayArea.Text = " ";
+            }
+            //MessageBox.Show("MyHandler executed!");
+            //lblDisplayArea.Text = "Entered the Handler";
+            //MessageBox.Show("You selceted from the list: " + ddlStateOfResidence.SelectedItem.ToString());
+        }
+
+// You get the load by clicking on the form
+// this loads the event handler at runtime
+        private void frmRegristration_Load(object sender, EventArgs e)
+        {
+            btnProcess.Click += btnProcess_Click;
+            txtPassword.TextChanged += txtPassword_TextChanged;
+
+        }
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("This runs");
         }
     }
+
 }

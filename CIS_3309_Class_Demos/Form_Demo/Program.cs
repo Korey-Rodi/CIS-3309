@@ -16,7 +16,8 @@ namespace Form_Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmRegristration());
+            Application.Run(new frmLogin());
+            //Application.Run(new frmRegristration());
         }
     }
 }

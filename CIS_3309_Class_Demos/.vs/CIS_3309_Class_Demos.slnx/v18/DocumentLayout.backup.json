@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmregristration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmregristration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|c:\\users\\rodik\\onedrive\\documents\\github\\cis 3309\\cis_3309_class_demos\\form_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E776C774-4CE2-4DD2-9444-68FC68885E60}|Form_Demo\\Form_Demo.csproj|solutionrelative:form_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +34,66 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmRegristration.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
-              "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.Designer.cs",
-              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
-              "RelativeToolTip": "Form_Demo\\frmRegristration.Designer.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAWwLwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T17:33:11.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmRegristration.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
               "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.cs",
               "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
               "RelativeToolTip": "Form_Demo\\frmRegristration.cs",
-              "ViewState": "AgIAACIAAACAoZmZmZkawDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAIAwwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:43:01.562Z",
+              "WhenOpened": "2026-09-02T17:46:19.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmRegristration.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs",
               "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.cs",
               "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.cs [Design]",
               "RelativeToolTip": "Form_Demo\\frmRegristration.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T17:20:29.107Z",
+              "WhenOpened": "2026-09-02T17:43:41.688Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\Car.cs",
-              "RelativeDocumentMoniker": "Form_Demo\\Car.cs",
-              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\Car.cs",
-              "RelativeToolTip": "Form_Demo\\Car.cs",
-              "ViewState": "AgIAAAMAAACAmpmZmRkmwBoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmRegristration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmRegristration.Designer.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmRegristration.Designer.cs",
+              "RelativeToolTip": "Form_Demo\\frmRegristration.Designer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAWwD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:52:36.889Z",
+              "WhenOpened": "2026-09-02T17:40:53.109Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmLogin.cs",
+              "RelativeToolTip": "Form_Demo\\frmLogin.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:23:14.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Form_Demo\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\Form_Demo\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Form_Demo\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:20:03.954Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

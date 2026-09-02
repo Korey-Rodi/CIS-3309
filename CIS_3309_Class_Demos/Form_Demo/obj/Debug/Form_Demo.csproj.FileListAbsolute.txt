@@ -8,3 +8,4 @@ C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\Form_Demo
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\Form_Demo\obj\Debug\Form_Demo.exe
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\Form_Demo\obj\Debug\Form_Demo.pdb
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\Form_Demo\obj\Debug\Form_Demo.frmRegristration.resources
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\Form_Demo\obj\Debug\Form_Demo.frmLogin.resources
