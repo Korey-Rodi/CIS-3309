@@ -1,0 +1,11 @@
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\bin\Debug\Lab1DemoImageGallery.exe.config
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\bin\Debug\Lab1DemoImageGallery.exe
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\bin\Debug\Lab1DemoImageGallery.pdb
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.csproj.AssemblyReference.cache
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.Form1.resources
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.Properties.Resources.resources
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.csproj.GenerateResource.cache
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.csproj.CoreCompileInputs.cache
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.exe
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.pdb
+C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\Lab1DemoImageGallery\obj\Debug\Lab1DemoImageGallery.Form2.resources
