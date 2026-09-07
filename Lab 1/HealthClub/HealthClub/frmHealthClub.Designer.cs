@@ -38,20 +38,20 @@
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbMembershipType = new System.Windows.Forms.GroupBox();
+            this.gbOptions = new System.Windows.Forms.GroupBox();
             this.chkTrainer = new System.Windows.Forms.CheckBox();
             this.chkKarate = new System.Windows.Forms.CheckBox();
             this.chkYoga = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.gbMemmberLength = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.gbFees = new System.Windows.Forms.GroupBox();
+            this.gbMembershipType.SuspendLayout();
+            this.gbOptions.SuspendLayout();
+            this.gbMemmberLength.SuspendLayout();
+            this.gbFees.SuspendLayout();
             this.SuspendLayout();
             // 
             // radAdult
@@ -139,6 +139,7 @@
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnExit
             // 
@@ -148,31 +149,32 @@
             this.btnExit.TabIndex = 10;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // groupBox1
+            // gbMembershipType
             // 
-            this.groupBox1.Controls.Add(this.radSenior);
-            this.groupBox1.Controls.Add(this.radStudent);
-            this.groupBox1.Controls.Add(this.radChild);
-            this.groupBox1.Controls.Add(this.radAdult);
-            this.groupBox1.Location = new System.Drawing.Point(66, 29);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(206, 151);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Type of Membership";
+            this.gbMembershipType.Controls.Add(this.radSenior);
+            this.gbMembershipType.Controls.Add(this.radStudent);
+            this.gbMembershipType.Controls.Add(this.radChild);
+            this.gbMembershipType.Controls.Add(this.radAdult);
+            this.gbMembershipType.Location = new System.Drawing.Point(66, 29);
+            this.gbMembershipType.Name = "gbMembershipType";
+            this.gbMembershipType.Size = new System.Drawing.Size(206, 151);
+            this.gbMembershipType.TabIndex = 11;
+            this.gbMembershipType.TabStop = false;
+            this.gbMembershipType.Text = "Type of Membership";
             // 
-            // groupBox2
+            // gbOptions
             // 
-            this.groupBox2.Controls.Add(this.chkTrainer);
-            this.groupBox2.Controls.Add(this.chkKarate);
-            this.groupBox2.Controls.Add(this.chkYoga);
-            this.groupBox2.Location = new System.Drawing.Point(587, 29);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(199, 144);
-            this.groupBox2.TabIndex = 12;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Options";
+            this.gbOptions.Controls.Add(this.chkTrainer);
+            this.gbOptions.Controls.Add(this.chkKarate);
+            this.gbOptions.Controls.Add(this.chkYoga);
+            this.gbOptions.Location = new System.Drawing.Point(587, 29);
+            this.gbOptions.Name = "gbOptions";
+            this.gbOptions.Size = new System.Drawing.Size(199, 144);
+            this.gbOptions.TabIndex = 12;
+            this.gbOptions.TabStop = false;
+            this.gbOptions.Text = "Options";
             // 
             // chkTrainer
             // 
@@ -213,16 +215,16 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Enter the Number of Months";
             // 
-            // groupBox3
+            // gbMemmberLength
             // 
-            this.groupBox3.Controls.Add(this.txtMonths);
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(68, 230);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(249, 133);
-            this.groupBox3.TabIndex = 14;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Membership Length";
+            this.gbMemmberLength.Controls.Add(this.txtMonths);
+            this.gbMemmberLength.Controls.Add(this.label3);
+            this.gbMemmberLength.Location = new System.Drawing.Point(68, 230);
+            this.gbMemmberLength.Name = "gbMemmberLength";
+            this.gbMemmberLength.Size = new System.Drawing.Size(249, 133);
+            this.gbMemmberLength.TabIndex = 14;
+            this.gbMemmberLength.TabStop = false;
+            this.gbMemmberLength.Text = "Membership Length";
             // 
             // label4
             // 
@@ -242,41 +244,41 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "Total:";
             // 
-            // groupBox4
+            // gbFees
             // 
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.lblTotalFee);
-            this.groupBox4.Controls.Add(this.lblMonthlyFees);
-            this.groupBox4.Location = new System.Drawing.Point(504, 221);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(248, 128);
-            this.groupBox4.TabIndex = 17;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Membership Fees";
+            this.gbFees.Controls.Add(this.label5);
+            this.gbFees.Controls.Add(this.label4);
+            this.gbFees.Controls.Add(this.lblTotalFee);
+            this.gbFees.Controls.Add(this.lblMonthlyFees);
+            this.gbFees.Location = new System.Drawing.Point(504, 221);
+            this.gbFees.Name = "gbFees";
+            this.gbFees.Size = new System.Drawing.Size(248, 128);
+            this.gbFees.TabIndex = 17;
+            this.gbFees.TabStop = false;
+            this.gbFees.Text = "Membership Fees";
             // 
             // frmHealthClub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbFees);
+            this.Controls.Add(this.gbMemmberLength);
+            this.Controls.Add(this.gbOptions);
+            this.Controls.Add(this.gbMembershipType);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCalculate);
             this.Name = "frmHealthClub";
             this.Text = "Membership Fee Calculator";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.gbMembershipType.ResumeLayout(false);
+            this.gbMembershipType.PerformLayout();
+            this.gbOptions.ResumeLayout(false);
+            this.gbOptions.PerformLayout();
+            this.gbMemmberLength.ResumeLayout(false);
+            this.gbMemmberLength.PerformLayout();
+            this.gbFees.ResumeLayout(false);
+            this.gbFees.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -293,13 +295,13 @@
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbMembershipType;
+        private System.Windows.Forms.GroupBox gbOptions;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox gbMemmberLength;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox gbFees;
         private System.Windows.Forms.CheckBox chkTrainer;
         private System.Windows.Forms.CheckBox chkKarate;
         private System.Windows.Forms.CheckBox chkYoga;

@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "HealthClub\\frmHealthClub.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs",
               "RelativeToolTip": "HealthClub\\frmHealthClub.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T19:33:15.422Z",
               "EditorCaption": ""
@@ -47,7 +47,8 @@
               "RelativeToolTip": "HealthClub\\frmHealthClub.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T19:33:11.94Z"
+              "WhenOpened": "2026-09-07T19:33:11.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,10 +56,11 @@
               "Title": "frmHealthClub.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs",
               "RelativeDocumentMoniker": "HealthClub\\frmHealthClub.cs",
-              "ToolTip": "C:\\Users\\rodik\\OneDrive\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs [Design]",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs [Design]",
+              "RelativeToolTip": "HealthClub\\frmHealthClub.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T19:12:41.238Z"
+              "WhenOpened": "2026-09-07T19:12:41.238Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
