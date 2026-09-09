@@ -8,3 +8,13 @@ C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\PayrollProgram\PayrollProgram\
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.csproj.CoreCompileInputs.cache
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.exe
 C:\Users\rodik\OneDrive\Documents\GitHub\CIS 3309\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\bin\Debug\PayrollProgram.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\bin\Debug\PayrollProgram.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\bin\Debug\PayrollProgram.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.frmMain.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\PayrollProgram\PayrollProgram\obj\Debug\PayrollProgram.pdb
