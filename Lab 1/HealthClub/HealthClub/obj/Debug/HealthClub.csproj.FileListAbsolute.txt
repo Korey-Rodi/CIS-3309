@@ -18,3 +18,13 @@ C:\Users\rodik\Documents\GitHub\CIS 3309\HealthClub\HealthClub\obj\Debug\HealthC
 C:\Users\rodik\Documents\GitHub\CIS 3309\HealthClub\HealthClub\obj\Debug\HealthClub.csproj.CoreCompileInputs.cache
 C:\Users\rodik\Documents\GitHub\CIS 3309\HealthClub\HealthClub\obj\Debug\HealthClub.exe
 C:\Users\rodik\Documents\GitHub\CIS 3309\HealthClub\HealthClub\obj\Debug\HealthClub.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\bin\Debug\HealthClub.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\bin\Debug\HealthClub.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\bin\Debug\HealthClub.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.frmHealthClub.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 1\HealthClub\HealthClub\obj\Debug\HealthClub.pdb

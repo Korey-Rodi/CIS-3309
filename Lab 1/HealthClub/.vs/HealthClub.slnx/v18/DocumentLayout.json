@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\",
+  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\healthclub\\healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 1\\healthclub\\healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|solutionrelative:healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|solutionrelative:healthclub\\frmhealthclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\healthclub\\frmhealthclub.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\healthclub\\frmhealthclub.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FD551CE-778A-4919-92A8-CB892A368CDF}|HealthClub\\HealthClub.csproj|solutionrelative:healthclub\\frmhealthclub.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmHealthClub.cs",
-              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\HealthClub\\frmHealthClub.cs",
               "RelativeDocumentMoniker": "HealthClub\\frmHealthClub.cs",
-              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\HealthClub\\frmHealthClub.cs",
               "RelativeToolTip": "HealthClub\\frmHealthClub.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowCcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T19:33:15.422Z",
               "EditorCaption": ""
@@ -41,26 +41,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "frmHealthClub.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\HealthClub\\frmHealthClub.Designer.cs",
               "RelativeDocumentMoniker": "HealthClub\\frmHealthClub.Designer.cs",
-              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.Designer.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\HealthClub\\frmHealthClub.Designer.cs",
               "RelativeToolTip": "HealthClub\\frmHealthClub.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T19:33:11.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T19:33:11.94Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmHealthClub.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 1\\HealthClub\\HealthClub\\frmHealthClub.cs",
               "RelativeDocumentMoniker": "HealthClub\\frmHealthClub.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\HealthClub\\HealthClub\\frmHealthClub.cs [Design]",
-              "RelativeToolTip": "HealthClub\\frmHealthClub.cs [Design]",
+              "RelativeToolTip": "..\\..\\HealthClub\\HealthClub\\frmHealthClub.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T19:12:41.238Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-07T19:12:41.238Z"
             }
           ]
         }

@@ -21,9 +21,9 @@ namespace HealthClub
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            decimal baseFee = BaseMembershipFee();
+            decimal baseFee = this.BaseMembershipFee();
             int months;
-            bool isValidMonth = int.TryParse(txtMonths.Text, out months) && CheckMonth(months);
+            bool isValidMonth = int.TryParse(txtMonths.Text, out months) && this.CheckMonth(months);
 
             if (baseFee == 0)
             {
@@ -37,9 +37,9 @@ namespace HealthClub
                 return; // This stops the code below it from exectuing
             }
 
-            decimal extraFees = AdditionalOptionFees();
+            decimal extraFees = this.AdditionalOptionFees();
             decimal monthlyTotal = baseFee + extraFees;
-            decimal totalFee = CalculateTotalFee(monthlyTotal, months);
+            decimal totalFee = this.CalculateTotalFee(monthlyTotal, months);
 
             lblMonthlyFees.Text = monthlyTotal.ToString("C");
             lblTotalFee.Text = totalFee.ToString("C");
@@ -71,7 +71,7 @@ namespace HealthClub
 
 
         // Add fees in 
-        public decimal AdditionalOptionFees()
+        private decimal AdditionalOptionFees()
         {
             decimal fees =  0;
             if(chkYoga.Checked)
@@ -89,7 +89,7 @@ namespace HealthClub
             return fees;
         }
         // Calculate total fee
-        public decimal CalculateTotalFee(decimal monthlyTotal, int months)
+        private decimal CalculateTotalFee(decimal monthlyTotal, int months)
         {
             return monthlyTotal * months;
 
@@ -117,7 +117,7 @@ namespace HealthClub
             lblTotalFee.Text = "";
         }
         // CHeck Month valid
-        public Boolean CheckMonth(int months)
+        private Boolean CheckMonth(int months)
         {
             if(months < 1 || months > 24)
             {
