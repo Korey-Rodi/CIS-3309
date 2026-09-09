@@ -69,6 +69,7 @@
             this.Controls.Add(this.txtUsername);
             this.Name = "frmLogin";
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,7 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtUsername;
+        public System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label lblMessage;
     }

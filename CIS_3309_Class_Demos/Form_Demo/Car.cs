@@ -17,11 +17,11 @@ namespace Form_Demo
         {
             get
             {
-                return Make;
+                return make;
             }
             set
             {
-                Make = value;
+                make = value;
             }
         }
     }

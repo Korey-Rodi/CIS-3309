@@ -276,7 +276,7 @@
 
         private System.Windows.Forms.Button btnProcess;
         public System.Windows.Forms.TextBox txtUserInput; // Make this public so that data from other forms can access the data
-        private System.Windows.Forms.Label lblDisplayArea;
+        public System.Windows.Forms.Label lblDisplayArea;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblEnterName;
         private System.Windows.Forms.Label lblEnterPassword;

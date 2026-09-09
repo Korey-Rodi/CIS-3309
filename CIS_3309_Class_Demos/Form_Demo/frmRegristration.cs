@@ -13,9 +13,23 @@ namespace Form_Demo
 {
     public partial class frmRegristration : Form
     {
+
+        private Form myOwner; //by default this is private unless listed otherwise
         public frmRegristration()
         {
             InitializeComponent();
+        }
+
+        public Form MyOwnerForm
+        {
+            get
+            {
+                return myOwner;
+            }
+            set
+            {
+                myOwner = value;
+            }
         }
 
         private void btnProcess_Click(object sender, EventArgs e)
@@ -76,6 +90,12 @@ namespace Form_Demo
 // this loads the event handler at runtime
         private void frmRegristration_Load(object sender, EventArgs e)
         {
+            // If you need to get data from a form you opened make it public in the desginer file
+            // If you DID not (form opened another form) 
+            // First pass in reference of the form that opened it and created
+            // Set public variable that you want to be accessed
+            frmLogin formThatOpenedMe = (frmLogin)myOwner;
+            formThatOpenedMe.txtUsername.Text = "changed by the registration!!!";
             btnProcess.Click += btnProcess_Click;
             txtPassword.TextChanged += txtPassword_TextChanged;
 
