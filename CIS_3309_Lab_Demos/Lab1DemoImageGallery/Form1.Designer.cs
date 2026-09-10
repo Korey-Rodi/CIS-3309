@@ -31,9 +31,9 @@
             this.btnNextForm = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PictureViewer = new System.Windows.Forms.PictureBox();
             this.lblName = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureViewer)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNextForm
@@ -54,6 +54,7 @@
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next Image";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnBack
             // 
@@ -63,18 +64,19 @@
             this.btnBack.TabIndex = 2;
             this.btnBack.Text = "Last Image";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // pictureBox1
+            // PictureViewer
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.PictureViewer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::Lab1DemoImageGallery.Properties.Resources._7;
-            this.pictureBox1.Location = new System.Drawing.Point(151, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(256, 207);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.PictureViewer.Image = global::Lab1DemoImageGallery.Properties.Resources._7;
+            this.PictureViewer.Location = new System.Drawing.Point(151, 12);
+            this.PictureViewer.Name = "PictureViewer";
+            this.PictureViewer.Size = new System.Drawing.Size(256, 207);
+            this.PictureViewer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PictureViewer.TabIndex = 3;
+            this.PictureViewer.TabStop = false;
             // 
             // lblName
             // 
@@ -94,13 +96,13 @@
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(578, 444);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PictureViewer);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnNextForm);
             this.Name = "Form1";
             this.Text = "Image Gallery";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureViewer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,7 +113,7 @@
         private System.Windows.Forms.Button btnNextForm;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PictureViewer;
         private System.Windows.Forms.Label lblName;
     }
 }
