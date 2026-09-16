@@ -1,0 +1,11 @@
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\bin\Debug\SandwhichBuilder.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\bin\Debug\SandwhichBuilder.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\bin\Debug\SandwhichBuilder.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwichBuilder.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwhichBuilder.frmOrder.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwhichBuilder.frmSandwichBuilder.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwhichBuilder.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwichBuilder.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwichBuilder.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwhichBuilder.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwhichBuilder\SandwhichBuilder\obj\Debug\SandwhichBuilder.pdb
