@@ -1,14 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\",
+  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5C37A45-DE90-4E5C-821E-EA5975B82B45}|SandwhichBuilder\\SandwhichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2\\sandwhichbuilder\\sandwhichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C37A45-DE90-4E5C-821E-EA5975B82B45}|SandwhichBuilder\\SandwhichBuilder.csproj|solutionrelative:sandwhichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\SandwhichBuilder\\Sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C37A45-DE90-4E5C-821E-EA5975B82B45}|SandwhichBuilder\\SandwhichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2\\sandwhichbuilder\\sandwhichbuilder\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5C37A45-DE90-4E5C-821E-EA5975B82B45}|SandwhichBuilder\\SandwhichBuilder.csproj|solutionrelative:sandwhichbuilder\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2\\sandwhichbuilder\\sandwhichbuilder\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,25 +23,22 @@
               "DocumentIndex": 0,
               "Title": "Sandwich.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\SandwhichBuilder\\Sandwich.cs",
-              "RelativeDocumentMoniker": "SandwhichBuilder\\Sandwich.cs",
+              "RelativeDocumentMoniker": "..\\SandwhichBuilder\\SandwhichBuilder\\Sandwich.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\SandwhichBuilder\\Sandwich.cs",
-              "RelativeToolTip": "SandwhichBuilder\\Sandwich.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "RelativeToolTip": "..\\SandwhichBuilder\\SandwhichBuilder\\Sandwich.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T19:30:52.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-16T19:30:52.051Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmOrder.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\SandwhichBuilder\\frmOrder.cs",
-              "RelativeDocumentMoniker": "SandwhichBuilder\\frmOrder.cs",
+              "RelativeDocumentMoniker": "..\\SandwhichBuilder\\SandwhichBuilder\\frmOrder.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwhichBuilder\\SandwhichBuilder\\frmOrder.cs [Design]",
-              "RelativeToolTip": "SandwhichBuilder\\frmOrder.cs [Design]",
+              "RelativeToolTip": "..\\SandwhichBuilder\\SandwhichBuilder\\frmOrder.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T19:30:18.731Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-16T19:30:18.731Z"
             }
           ]
         }
