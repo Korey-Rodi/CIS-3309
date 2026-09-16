@@ -15,7 +15,7 @@ namespace SandwhichBuilder
         String name;
 
         String? imagePath; // This needs to be nullable bc not all will have an image
-        String description;
+        String? description;
         String size;
         String bread;
         List<String> sauces;
@@ -33,7 +33,7 @@ namespace SandwhichBuilder
             get { return imagePath; } set {imagePath = value;} 
         }
 
-        public String Description
+        public String? Description // This needs to be nullable
         {
             get { return  description; } set { description = value; }
         }
@@ -65,7 +65,7 @@ namespace SandwhichBuilder
         {
             get { return premToppings; } set {premToppings = value; }
         }
-        internal Sandwich(String name, String? imagePath, String description,
+        internal Sandwich(String name, String? imagePath, String? description,
         String size,String bread,List<String> sauces,List<String> meats,List<String> cheese,
         List<String>? toppings,List<String>? premToppings)
         {
@@ -79,6 +79,14 @@ namespace SandwhichBuilder
             this.cheese = cheese;
             this.toppings = toppings;
             this.premToppings = premToppings;
+
+            // Size 5 (small, medium, large, extra-large, and party size)
+            // Bread 6 (White, Rye, Long roll, Flatbread, Wheat, Whole Grain)
+            // Sauces 8 (Hot sauce, Mayo, Oil, Vinegar,Mustard, Ranch, Ketchup, Chipotle)
+            // Meats 10 (Turkey, Ham, Roast Beef, Chicken, Salami, Pepperoni, Bacon, Pastrami, Capicola, Prosciutto)
+            // Cheese 5 (Cheddar, Pepper Jack, Buffalo Cheese, Gouda, Swiss)
+            // Toppings 10 (Lettuce, Tomato, Onion, Pickles, Banana Peppers, Jalapenos, Olives, Cucumbers, Avocado, Spinach)
+            // Premium Toppings 10 (Extra Lettuce, Extra Tomato, Extra Onion, Extra Pickles, Extra Banana Peppers, Extra Jalapenos, Extra Olives, Extra Cucumbers, Extra Avocado, Extra Spinach)
 
         }
         public override String ToString()
@@ -109,8 +117,8 @@ namespace SandwhichBuilder
                 preMade.Add(new Sandwich("Large hateful Turkey", null, "Large Turkey sandwich made with hate",
                 "Large", "Rye", ["Hot Sauce"],["Turkey"],["Buffalo Cheese"],["Lettuce"],null));
 
-                preMade.Add(new Sandwich("Family hateful Turkey", null, "Family size Turkey sandwich made with hate",
-                "Family Size", "Long Roll", ["Hot Sauce"],["Turkey"],["Buffalo Cheese"],["Lettuce"],null));
+                preMade.Add(new Sandwich("Party hateful Turkey", null, "Family size Turkey sandwich made with hate",
+                "Party Size", "Long Roll", ["Hot Sauce"],["Turkey"],["Buffalo Cheese"],["Lettuce"],null));
             }
             
         }
