@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D19B950A-B0E9-457A-A40A-4380A4E205DC}|SandwichBuilder\\SandwichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2 restored\\sandwichbuilder\\sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D19B950A-B0E9-457A-A40A-4380A4E205DC}|SandwichBuilder\\SandwichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2 restored\\sandwichbuilder\\sandwichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B950A-B0E9-457A-A40A-4380A4E205DC}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B950A-B0E9-457A-A40A-4380A4E205DC}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D19B950A-B0E9-457A-A40A-4380A4E205DC}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,14 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sandwich.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\SandwichBuilder\\Sandwich.cs",
+              "RelativeDocumentMoniker": "SandwichBuilder\\Sandwich.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\SandwichBuilder\\Sandwich.cs",
+              "RelativeToolTip": "SandwichBuilder\\Sandwich.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T01:00:34.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\SandwichBuilder\\Form1.cs",
               "RelativeDocumentMoniker": "SandwichBuilder\\Form1.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2 Restored\\SandwichBuilder\\SandwichBuilder\\Form1.cs [Design]",
               "RelativeToolTip": "SandwichBuilder\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T22:49:18.451Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-16T22:49:18.451Z"
             }
           ]
         }
