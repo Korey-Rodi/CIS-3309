@@ -1,0 +1,157 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SandwichBuilder
+{
+    internal class Sandwich
+    {
+        String name;
+
+        String imagePath;
+        String description;
+        String size;
+        String bread;
+        List<String> sauces;
+        List<String> meats;
+        List<String> cheese;
+        List<String> toppings;
+        List<String> premToppings;
+
+        public String Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public String ImagePath
+        {
+            get { return imagePath; }
+            set { imagePath = value; }
+        }
+
+        public String Description
+        {
+            get { return description; }
+            set { description = value; }
+        }
+
+        public String Size
+        {
+            get { return size; }
+            set { size = value; }
+        }
+
+        public String Bread
+        {
+            get { return bread; }
+            set { bread = value; }
+        }
+
+        public List<String> Sauces
+        {
+            get { return sauces; }
+            set { sauces = value; }
+        }
+
+        public List<String> Meats
+        {
+            get { return meats; }
+            set { meats = value; }
+        }
+
+        public List<String> Cheese
+        {
+            get { return cheese; }
+            set { cheese = value; }
+        }
+
+        public List<String> Toppings
+        {
+            get { return toppings; }
+            set { toppings = value; }
+        }
+
+        public List<String> PremToppings 
+        {
+            get { return premToppings; }
+            set { premToppings = value; }
+        }
+
+        internal Sandwich(String name, String imagePath, String description,
+            String size, String bread, List<String> sauces, List<String> meats, List<String> cheese,
+            List<String> toppings, List<String> premToppings)
+        {
+            this.name = name;
+            this.imagePath = imagePath;
+            this.description = description;
+            this.size = size;
+            this.bread = bread;
+            this.sauces = sauces;
+            this.meats = meats;
+            this.cheese = cheese;
+            this.toppings = toppings;
+            this.premToppings = premToppings;
+
+            // Size 5 (small, medium, large, extra-large, and party size)
+            // Bread 6 (White, Rye, Long roll, Flatbread, Wheat, Whole Grain)
+            // Sauces 8 (Hot sauce, Mayo, Oil, Vinegar, Mustard, Ranch, Ketchup, Chipotle)
+            // Meats 10 (Turkey, Ham, Roast Beef, Chicken, Salami, Pepperoni, Bacon, Pastrami, Capicola, Prosciutto)
+            // Cheese 5 (Cheddar, Pepper Jack, Buffalo Cheese, Gouda, Swiss)
+            // Toppings 10 (Lettuce, Tomato, Onion, Pickles, Banana Peppers, Jalapenos, Olives, Cucumbers, Avocado, Spinach)
+            // Premium Toppings 10 (Extra Lettuce, Extra Tomato, Extra Onion, Extra Pickles, Extra Banana Peppers, Extra Jalapenos, Extra Olives, Extra Cucumbers, Extra Avocado, Extra Spinach)
+        }
+
+        public override String ToString()
+        {
+            String sandwichInfo = "";
+
+            sandwichInfo += name + "\n";
+            sandwichInfo += description + "\n";
+            sandwichInfo += size + "\n";
+            sandwichInfo += bread + "\n";
+
+            // https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-window-in-c-sharp
+            sandwichInfo += String.Join(", ", sauces) + "\n";
+            sandwichInfo += String.Join(", ", cheese) + "\n";
+            sandwichInfo += String.Join(", ", toppings ?? new List<String>()) + "\n";
+            sandwichInfo += String.Join(", ", premToppings ?? new List<String>());
+
+            return sandwichInfo;
+        }
+
+        public static class PreMadeSandwiches
+        {
+            public static List<Sandwich> preMade = new List<Sandwich>();
+
+            static PreMadeSandwiches()
+            {
+                preMade.Add(new Sandwich("Small love Turkey", null, "Turkey sandwich made with love",
+                    "Small", "White",
+                    new List<String> { "Mayo", "Ketchup" },
+                    new List<String> { "Turkey" },
+                    new List<String> { "Cheddar" },
+                    new List<String> { "Lettuce" },
+                    new List<String> { "Avocado" }));
+
+                preMade.Add(new Sandwich("Large hateful Turkey", null, "Large Turkey sandwich made with hate",
+                    "Large", "Rye",
+                    new List<String> { "Hot Sauce" },
+                    new List<String> { "Turkey" },
+                    new List<String> { "Buffalo Cheese" },
+                    new List<String> { "Lettuce" },
+                    null));
+
+                preMade.Add(new Sandwich("Party hateful Turkey", null, "Family size Turkey sandwich made with hate",
+                    "Party Size", "Long Roll",
+                    new List<String> { "Hot Sauce" },
+                    new List<String> { "Turkey" },
+                    new List<String> { "Buffalo Cheese" },
+                    new List<String> { "Lettuce" },
+                    null));
+            }
+        }
+    }
+}
