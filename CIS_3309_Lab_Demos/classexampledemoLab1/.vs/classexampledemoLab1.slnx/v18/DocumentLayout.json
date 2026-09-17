@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemoLab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{506FA9DD-BE6A-2A46-FC16-7F172CB5730D}|classexampledemoLab1\\classexampledemoLab1.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\cis_3309_lab_demos\\classexampledemolab1\\classexampledemolab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{506FA9DD-BE6A-2A46-FC16-7F172CB5730D}|classexampledemoLab1\\classexampledemoLab1.csproj|solutionrelative:classexampledemolab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemoLab1\\classexampledemoLab1\\Form1.cs",
+              "RelativeDocumentMoniker": "classexampledemoLab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemoLab1\\classexampledemoLab1\\Form1.cs [Design]",
+              "RelativeToolTip": "classexampledemoLab1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:04:02.158Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
