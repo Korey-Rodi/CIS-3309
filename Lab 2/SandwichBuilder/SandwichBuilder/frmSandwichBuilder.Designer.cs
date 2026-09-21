@@ -39,7 +39,7 @@
             this.cbxPreMade = new System.Windows.Forms.ComboBox();
             this.cbxSize = new System.Windows.Forms.ComboBox();
             this.lblBread = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radWhite = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -87,7 +87,11 @@
             this.gbCheese = new System.Windows.Forms.GroupBox();
             this.gbMeats = new System.Windows.Forms.GroupBox();
             this.gbToppings = new System.Windows.Forms.GroupBox();
+            this.checkBox35 = new System.Windows.Forms.CheckBox();
+            this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.gbExtraToppings = new System.Windows.Forms.GroupBox();
+            this.lblTip = new System.Windows.Forms.Label();
+            this.txtTip = new System.Windows.Forms.TextBox();
             this.gbBread.SuspendLayout();
             this.gbCheese.SuspendLayout();
             this.gbMeats.SuspendLayout();
@@ -111,7 +115,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(476, 154);
+            this.txtPhone.Location = new System.Drawing.Point(476, 163);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(242, 26);
             this.txtPhone.TabIndex = 2;
@@ -128,7 +132,7 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(551, 79);
+            this.lblAddress.Location = new System.Drawing.Point(564, 79);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(68, 20);
             this.lblAddress.TabIndex = 4;
@@ -137,7 +141,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(529, 131);
+            this.label1.Location = new System.Drawing.Point(529, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 20);
             this.label1.TabIndex = 5;
@@ -157,7 +161,8 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(391, 881);
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(386, 909);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(415, 52);
             this.btnSubmit.TabIndex = 7;
@@ -202,26 +207,26 @@
             this.lblBread.TabIndex = 11;
             this.lblBread.Text = "Bread:";
             // 
-            // radioButton1
+            // radWhite
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(17, 75);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(126, 24);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radWhite.AutoSize = true;
+            this.radWhite.Location = new System.Drawing.Point(17, 75);
+            this.radWhite.Name = "radWhite";
+            this.radWhite.Size = new System.Drawing.Size(75, 24);
+            this.radWhite.TabIndex = 12;
+            this.radWhite.TabStop = true;
+            this.radWhite.Text = "White";
+            this.radWhite.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(184, 75);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(126, 24);
+            this.radioButton2.Size = new System.Drawing.Size(108, 24);
             this.radioButton2.TabIndex = 13;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "Flat Bread";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -229,10 +234,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(17, 125);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(126, 24);
+            this.radioButton3.Size = new System.Drawing.Size(62, 24);
             this.radioButton3.TabIndex = 14;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "Rye";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -240,10 +245,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(184, 125);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(126, 24);
+            this.radioButton4.Size = new System.Drawing.Size(81, 24);
             this.radioButton4.TabIndex = 15;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "Wheat";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton5
@@ -251,10 +256,10 @@
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(17, 174);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(126, 24);
+            this.radioButton5.Size = new System.Drawing.Size(101, 24);
             this.radioButton5.TabIndex = 16;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
+            this.radioButton5.Text = "Long Roll";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton6
@@ -262,10 +267,10 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(184, 174);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(126, 24);
+            this.radioButton6.Size = new System.Drawing.Size(122, 24);
             this.radioButton6.TabIndex = 17;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "radioButton6";
+            this.radioButton6.Text = "Whole Grain";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -400,9 +405,9 @@
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(32, 55);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(122, 24);
+            this.checkBox11.Size = new System.Drawing.Size(96, 24);
             this.checkBox11.TabIndex = 32;
-            this.checkBox11.Text = "checkBox11";
+            this.checkBox11.Text = "Cheddar";
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
             // checkBox12
@@ -410,9 +415,9 @@
             this.checkBox12.AutoSize = true;
             this.checkBox12.Location = new System.Drawing.Point(182, 55);
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(122, 24);
+            this.checkBox12.Size = new System.Drawing.Size(145, 24);
             this.checkBox12.TabIndex = 33;
-            this.checkBox12.Text = "checkBox12";
+            this.checkBox12.Text = "Buffalo Cheese";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
             // checkBox13
@@ -420,9 +425,9 @@
             this.checkBox13.AutoSize = true;
             this.checkBox13.Location = new System.Drawing.Point(32, 89);
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(122, 24);
+            this.checkBox13.Size = new System.Drawing.Size(123, 24);
             this.checkBox13.TabIndex = 34;
-            this.checkBox13.Text = "checkBox13";
+            this.checkBox13.Text = "Pepper Jack";
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
             // checkBox14
@@ -430,9 +435,9 @@
             this.checkBox14.AutoSize = true;
             this.checkBox14.Location = new System.Drawing.Point(182, 89);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(122, 24);
+            this.checkBox14.Size = new System.Drawing.Size(84, 24);
             this.checkBox14.TabIndex = 35;
-            this.checkBox14.Text = "checkBox14";
+            this.checkBox14.Text = "Gouda";
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
             // checkBox15
@@ -440,9 +445,9 @@
             this.checkBox15.AutoSize = true;
             this.checkBox15.Location = new System.Drawing.Point(106, 119);
             this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(122, 24);
+            this.checkBox15.Size = new System.Drawing.Size(76, 24);
             this.checkBox15.TabIndex = 36;
-            this.checkBox15.Text = "checkBox15";
+            this.checkBox15.Text = "Swiss";
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
             // lblToppings
@@ -497,7 +502,7 @@
             // checkBox20
             // 
             this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(16, 126);
+            this.checkBox20.Location = new System.Drawing.Point(16, 124);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(122, 24);
             this.checkBox20.TabIndex = 42;
@@ -517,7 +522,7 @@
             // checkBox22
             // 
             this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(16, 178);
+            this.checkBox22.Location = new System.Drawing.Point(16, 154);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(122, 24);
             this.checkBox22.TabIndex = 44;
@@ -527,7 +532,7 @@
             // checkBox23
             // 
             this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(175, 178);
+            this.checkBox23.Location = new System.Drawing.Point(175, 158);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(122, 24);
             this.checkBox23.TabIndex = 45;
@@ -650,7 +655,7 @@
             this.gbBread.Controls.Add(this.radioButton4);
             this.gbBread.Controls.Add(this.radioButton3);
             this.gbBread.Controls.Add(this.radioButton2);
-            this.gbBread.Controls.Add(this.radioButton1);
+            this.gbBread.Controls.Add(this.radWhite);
             this.gbBread.Controls.Add(this.lblBread);
             this.gbBread.Location = new System.Drawing.Point(23, 424);
             this.gbBread.Name = "gbBread";
@@ -693,6 +698,8 @@
             // 
             // gbToppings
             // 
+            this.gbToppings.Controls.Add(this.checkBox35);
+            this.gbToppings.Controls.Add(this.checkBox34);
             this.gbToppings.Controls.Add(this.checkBox23);
             this.gbToppings.Controls.Add(this.checkBox22);
             this.gbToppings.Controls.Add(this.checkBox21);
@@ -707,6 +714,26 @@
             this.gbToppings.Size = new System.Drawing.Size(330, 231);
             this.gbToppings.TabIndex = 60;
             this.gbToppings.TabStop = false;
+            // 
+            // checkBox35
+            // 
+            this.checkBox35.AutoSize = true;
+            this.checkBox35.Location = new System.Drawing.Point(175, 196);
+            this.checkBox35.Name = "checkBox35";
+            this.checkBox35.Size = new System.Drawing.Size(122, 24);
+            this.checkBox35.TabIndex = 47;
+            this.checkBox35.Text = "checkBox35";
+            this.checkBox35.UseVisualStyleBackColor = true;
+            // 
+            // checkBox34
+            // 
+            this.checkBox34.AutoSize = true;
+            this.checkBox34.Location = new System.Drawing.Point(16, 196);
+            this.checkBox34.Name = "checkBox34";
+            this.checkBox34.Size = new System.Drawing.Size(122, 24);
+            this.checkBox34.TabIndex = 46;
+            this.checkBox34.Text = "checkBox34";
+            this.checkBox34.UseVisualStyleBackColor = true;
             // 
             // gbExtraToppings
             // 
@@ -727,11 +754,31 @@
             this.gbExtraToppings.TabIndex = 61;
             this.gbExtraToppings.TabStop = false;
             // 
+            // lblTip
+            // 
+            this.lblTip.AutoSize = true;
+            this.lblTip.Location = new System.Drawing.Point(568, 839);
+            this.lblTip.Name = "lblTip";
+            this.lblTip.Size = new System.Drawing.Size(34, 20);
+            this.lblTip.TabIndex = 62;
+            this.lblTip.Text = "Tip:";
+            // 
+            // txtTip
+            // 
+            this.txtTip.Location = new System.Drawing.Point(538, 862);
+            this.txtTip.Name = "txtTip";
+            this.txtTip.Size = new System.Drawing.Size(100, 26);
+            this.txtTip.TabIndex = 63;
+            this.txtTip.Text = "Tip:";
+            // 
             // frmSandwichBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1187, 1068);
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(1187, 971);
+            this.Controls.Add(this.txtTip);
+            this.Controls.Add(this.lblTip);
             this.Controls.Add(this.gbExtraToppings);
             this.Controls.Add(this.gbToppings);
             this.Controls.Add(this.gbMeats);
@@ -748,6 +795,7 @@
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtName);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "frmSandwichBuilder";
             this.Text = "Sandwich Order Form";
             this.gbBread.ResumeLayout(false);
@@ -778,7 +826,7 @@
         private System.Windows.Forms.ComboBox cbxPreMade;
         private System.Windows.Forms.ComboBox cbxSize;
         private System.Windows.Forms.Label lblBread;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radWhite;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
@@ -827,6 +875,10 @@
         private System.Windows.Forms.GroupBox gbMeats;
         private System.Windows.Forms.GroupBox gbToppings;
         private System.Windows.Forms.GroupBox gbExtraToppings;
+        private System.Windows.Forms.CheckBox checkBox35;
+        private System.Windows.Forms.CheckBox checkBox34;
+        private System.Windows.Forms.Label lblTip;
+        private System.Windows.Forms.TextBox txtTip;
     }
 }
 

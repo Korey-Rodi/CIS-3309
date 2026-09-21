@@ -12,12 +12,14 @@ namespace SandwichBuilder
         Sandwich sandwich;
 
         String orderType;
+        Decimal tip;
 
-        internal Order(Customer customer, Sandwich sandwich, String orderType)
+        internal Order(Customer customer, Sandwich sandwich, String orderType, Decimal tip)
         {
             this.customer = customer;
             this.sandwich = sandwich;
             this.orderType = orderType;
+            this.tip = tip;
         }
         public override string ToString()
         {
