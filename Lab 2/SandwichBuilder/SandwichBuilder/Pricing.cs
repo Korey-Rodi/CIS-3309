@@ -71,5 +71,45 @@ namespace SandwichBuilder
             {"Prosciutto",3.75m}
         };
 
+// Cheese 5 (Cheddar, Pepper Jack, Buffalo Cheese, Gouda, Swiss)
+        internal static Dictionary<String, Decimal> cheesePricing = new Dictionary<string, decimal>
+        {
+            {"Cheddar",.25m },
+            {"Pepper Jack", .25m},
+            {"Buffalo Cheese", .50m},
+            {"Gouda", .75m},
+            {"Swiss", .50m}
+
+        };
+
+         // Toppings 10 (Lettuce, Tomato, Onion, Pickles, Banana Peppers, Jalapenos, Olives, Cucumbers, Avocado, Spinach)
+         internal static Dictionary<String, Decimal> toppingsPricing = new Dictionary<string, decimal>
+         {
+             {"Lettuce", .10m},
+             {"Tomato", .10m},
+             {"Onion", .05m},
+             {"Pickles", .20m},
+             {"Banana Peppers" , .25m},
+             {"Jalapenos" , .35m},
+             {"Olives", .10m},
+             {"Cucumbers", .10m},
+             {"Avocado", 1.00m},
+             {"Spinach", .10m}
+         };
+
+         internal static Dictionary<String, Decimal> premToppingsPricing = new Dictionary<string, decimal>
+         {
+             {"Extra Lettuce", .20m},
+             {"Extra Tomato", .20m},
+             {"Extra Onion", .10m},
+             {"Extra Pickles", .40m},
+             {"Extra Banana Peppers" , .50m},
+             {"Extra Jalapenos" , .70m},
+             {"Extra Olives", .20m},
+             {"Extra Cucumbers", .20m},
+             {"Extra Avocado", 2.00m},
+             {"Extra Spinach", .20m}
+         };
+
     }
 }

@@ -115,6 +115,7 @@ namespace SandwichBuilder
 
             // https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-window-in-c-sharp
             sandwichInfo += String.Join(", ", sauces) + "\n";
+            sandwichInfo += String.Join(", ", meats) + "\n";
             sandwichInfo += String.Join(", ", cheese) + "\n";
             sandwichInfo += String.Join(", ", toppings ?? new List<String>()) + "\n";
             sandwichInfo += String.Join(", ", premToppings ?? new List<String>());
@@ -130,27 +131,27 @@ namespace SandwichBuilder
             {
                 preMade.Add(new Sandwich("Small love Turkey", null, "Turkey sandwich made with love",
                     "Small", "White",
-                    new List<String> { "Mayo", "Ketchup" },
-                    new List<String> { "Turkey" },
-                    new List<String> { "Cheddar" },
-                    new List<String> { "Lettuce" },
-                    new List<String> { "Avocado" }));
+                    new List<String> {"Mayo", "Ketchup"},
+                    new List<String> {"Turkey"},
+                    new List<String> {"Cheddar"},
+                    new List<String> {"Lettuce"},
+                    new List<String> {"Extra Avocado"}));
 
                 preMade.Add(new Sandwich("Large hateful Turkey", null, "Large Turkey sandwich made with hate",
                     "Large", "Rye",
-                    new List<String> { "Hot Sauce" },
-                    new List<String> { "Turkey" },
-                    new List<String> { "Buffalo Cheese" },
-                    new List<String> { "Lettuce" },
-                    null));
+                    new List<String> {"Hot Sauce"},
+                    new List<String> {"Turkey"},
+                    new List<String> {"Buffalo Cheese"},
+                    new List<String> {"Lettuce"},
+                    new List<String> {"Extra Lettuce"}));
 
                 preMade.Add(new Sandwich("Party hateful Turkey", null, "Family size Turkey sandwich made with hate",
                     "Party Size", "Long Roll",
-                    new List<String> { "Hot Sauce" },
-                    new List<String> { "Turkey" },
-                    new List<String> { "Buffalo Cheese" },
-                    new List<String> { "Lettuce" },
-                    null));
+                    new List<String> {"Hot Sauce"},
+                    new List<String> {"Turkey"},
+                    new List<String> {"Buffalo Cheese"},
+                    new List<String> {"Lettuce"},
+                    new List<String> {"Extra Avocado"}));
             }
         }
     }
