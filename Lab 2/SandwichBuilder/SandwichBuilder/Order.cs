@@ -14,15 +14,17 @@ namespace SandwichBuilder
         String orderType;
         Decimal tip;
         Decimal subtotal;
+        Decimal total;
 
         internal Order(Customer customer, Sandwich sandwich, String orderType, Decimal tip,
-        Decimal subtotal)
+        Decimal subtotal, Decimal total)
         {
             this.customer = customer;
             this.sandwich = sandwich;
             this.orderType = orderType;
             this.tip = tip;
             this.subtotal = subtotal;
+            this.total = total;
         }
         public override string ToString()
         {
@@ -30,7 +32,7 @@ namespace SandwichBuilder
 
             orderInfo += customer.ToString() + "\n" + orderType + "\n" +
             sandwich.ToString() + "\n" + subtotal.ToString("C") + "\n"
-            + tip.ToString("C");
+            + tip.ToString("C") + "\n" + total.ToString("C");
 
             return orderInfo;
 

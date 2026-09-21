@@ -10,7 +10,6 @@ namespace SandwichBuilder
     {
         String name;
 
-        //String imagePath;
         String description;
         String size;
         String bread;
@@ -25,12 +24,6 @@ namespace SandwichBuilder
             get { return name; }
             set { name = value; }
         }
-
-        // public String ImagePath
-        // {
-        //     get { return imagePath; }
-        //     set { imagePath = value; }
-        // }
 
         public String Description
         {

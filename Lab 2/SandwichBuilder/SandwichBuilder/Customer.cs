@@ -31,7 +31,7 @@ namespace SandwichBuilder
             set { phoneNumber = value; }
         }
 
-        internal Customer(String name, String address, String phoneNumber, String orderType)
+        internal Customer(String name, String address, String phoneNumber)
         {
             this.name = name;
             this.address = address;
