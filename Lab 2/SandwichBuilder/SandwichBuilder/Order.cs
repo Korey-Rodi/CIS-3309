@@ -13,6 +13,7 @@ namespace SandwichBuilder
 
         String orderType;
         Decimal tip;
+        // Decimal subtotal;
 
         internal Order(Customer customer, Sandwich sandwich, String orderType, Decimal tip)
         {
@@ -20,6 +21,7 @@ namespace SandwichBuilder
             this.sandwich = sandwich;
             this.orderType = orderType;
             this.tip = tip;
+            //this.subtotal = subtotal;
         }
         public override string ToString()
         {
