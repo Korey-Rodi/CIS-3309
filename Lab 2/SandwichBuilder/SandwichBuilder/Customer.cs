@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Markup;
@@ -30,7 +31,7 @@ namespace SandwichBuilder
             set { phoneNumber = value; }
         }
 
-        internal Customer(String name, String address, String phoneNumber)
+        internal Customer(String name, String address, String phoneNumber, String orderType)
         {
             this.name = name;
             this.address = address;

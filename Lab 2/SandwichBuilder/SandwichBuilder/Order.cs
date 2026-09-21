@@ -11,16 +11,20 @@ namespace SandwichBuilder
         Customer customer;
         Sandwich sandwich;
 
-        internal Order(Customer customer, Sandwich sandwich)
+        String orderType;
+
+        internal Order(Customer customer, Sandwich sandwich, String orderType)
         {
             this.customer = customer;
             this.sandwich = sandwich;
+            this.orderType = orderType;
         }
         public override string ToString()
         {
             String orderInfo = "";
 
-            orderInfo += customer.ToString() + "\n" + sandwich.ToString();
+            orderInfo += customer.ToString() + "\n" + orderType + "\n" +
+            sandwich.ToString();
 
             return orderInfo;
 
