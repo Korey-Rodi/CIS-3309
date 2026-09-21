@@ -1,0 +1,11 @@
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\bin\Debug\classexampledemolab3.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\bin\Debug\classexampledemolab3.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\bin\Debug\classexampledemolab3.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.frmMain.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab3\classexampledemolab3\classexampledemolab3\obj\Debug\classexampledemolab3.frmRegister.resources

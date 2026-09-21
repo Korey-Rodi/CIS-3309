@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemolab3\\classexampledemolab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B15B387F-068C-4161-A346-43DEC690FAF7}|classexampledemolab3\\classexampledemolab3.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\cis_3309_lab_demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15B387F-068C-4161-A346-43DEC690FAF7}|classexampledemolab3\\classexampledemolab3.csproj|solutionrelative:classexampledemolab3\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15B387F-068C-4161-A346-43DEC690FAF7}|classexampledemolab3\\classexampledemolab3.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\cis_3309_lab_demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B15B387F-068C-4161-A346-43DEC690FAF7}|classexampledemolab3\\classexampledemolab3.csproj|solutionrelative:classexampledemolab3\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmMain.cs",
+              "RelativeDocumentMoniker": "classexampledemolab3\\frmMain.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmMain.cs*",
+              "RelativeToolTip": "classexampledemolab3\\frmMain.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T19:28:40.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmMain.cs",
+              "RelativeDocumentMoniker": "classexampledemolab3\\frmMain.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Lab_Demos\\classexampledemolab3\\classexampledemolab3\\classexampledemolab3\\frmMain.cs [Design]*",
+              "RelativeToolTip": "classexampledemolab3\\frmMain.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T19:17:05.335Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

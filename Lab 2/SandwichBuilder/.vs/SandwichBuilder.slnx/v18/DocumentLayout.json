@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2\\sandwichbuilder\\sandwichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\pricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 2\\sandwichbuilder\\sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\sandwichbuilder\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE276DD-ECD0-4C3C-AAAD-7829C5B8F203}|SandwichBuilder\\SandwichBuilder.csproj|solutionrelative:sandwichbuilder\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Form1.cs",
+              "RelativeDocumentMoniker": "SandwichBuilder\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Form1.cs",
+              "RelativeToolTip": "SandwichBuilder\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T18:40:11.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Pricing.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Pricing.cs",
               "RelativeDocumentMoniker": "SandwichBuilder\\Pricing.cs",
@@ -47,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Customer.cs",
               "RelativeDocumentMoniker": "SandwichBuilder\\Customer.cs",
@@ -60,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Order.cs",
               "RelativeDocumentMoniker": "SandwichBuilder\\Order.cs",
@@ -68,8 +84,7 @@
               "RelativeToolTip": "SandwichBuilder\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T02:16:03.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-17T02:16:03.675Z"
             },
             {
               "$type": "Document",
@@ -79,7 +94,7 @@
               "RelativeDocumentMoniker": "SandwichBuilder\\Sandwich.cs",
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Sandwich.cs",
               "RelativeToolTip": "SandwichBuilder\\Sandwich.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv14AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAkwF4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-17T02:14:13.319Z",
               "EditorCaption": ""
@@ -93,8 +108,7 @@
               "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 2\\SandwichBuilder\\SandwichBuilder\\Form1.cs [Design]",
               "RelativeToolTip": "SandwichBuilder\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T02:09:50.086Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-17T02:09:50.086Z"
             }
           ]
         }
