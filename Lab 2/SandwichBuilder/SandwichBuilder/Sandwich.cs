@@ -10,7 +10,7 @@ namespace SandwichBuilder
     {
         String name;
 
-        String imagePath;
+        //String imagePath;
         String description;
         String size;
         String bread;
@@ -26,11 +26,11 @@ namespace SandwichBuilder
             set { name = value; }
         }
 
-        public String ImagePath
-        {
-            get { return imagePath; }
-            set { imagePath = value; }
-        }
+        // public String ImagePath
+        // {
+        //     get { return imagePath; }
+        //     set { imagePath = value; }
+        // }
 
         public String Description
         {
@@ -80,12 +80,12 @@ namespace SandwichBuilder
             set { premToppings = value; }
         }
 
-        internal Sandwich(String name, String imagePath, String description,
+        internal Sandwich(String name, String description,
             String size, String bread, List<String> sauces, List<String> meats, List<String> cheese,
             List<String> toppings, List<String> premToppings)
         {
             this.name = name;
-            this.imagePath = imagePath;
+            //this.imagePath = imagePath;
             this.description = description;
             this.size = size;
             this.bread = bread;
@@ -129,7 +129,7 @@ namespace SandwichBuilder
 
             static PreMadeSandwiches()
             {
-                preMade.Add(new Sandwich("Small love Turkey", null, "Turkey sandwich made with love",
+                preMade.Add(new Sandwich("Small love Turkey", "Turkey sandwich made with love",
                     "Small", "White",
                     new List<String> {"Mayo", "Ketchup"},
                     new List<String> {"Turkey"},
@@ -137,7 +137,7 @@ namespace SandwichBuilder
                     new List<String> {"Lettuce"},
                     new List<String> {"Extra Avocado"}));
 
-                preMade.Add(new Sandwich("Large hateful Turkey", null, "Large Turkey sandwich made with hate",
+                preMade.Add(new Sandwich("Large hateful Turkey","Large Turkey sandwich made with hate",
                     "Large", "Rye",
                     new List<String> {"Hot Sauce"},
                     new List<String> {"Turkey"},
@@ -145,7 +145,7 @@ namespace SandwichBuilder
                     new List<String> {"Lettuce"},
                     new List<String> {"Extra Lettuce"}));
 
-                preMade.Add(new Sandwich("Party hateful Turkey", null, "Family size Turkey sandwich made with hate",
+                preMade.Add(new Sandwich("Party hateful Turkey", "Family size Turkey sandwich made with hate",
                     "Party Size", "Long Roll",
                     new List<String> {"Hot Sauce"},
                     new List<String> {"Turkey"},
