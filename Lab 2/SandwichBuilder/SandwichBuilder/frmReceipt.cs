@@ -12,9 +12,11 @@ namespace SandwichBuilder
 {
     public partial class frmReceipt : Form
     {
-        public frmReceipt()
+        internal frmReceipt(Order order)
+            
         {
             InitializeComponent();
+            lblReceiptInfo.Text = order.ToString();
         }
     }
 }

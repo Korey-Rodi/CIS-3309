@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SandwichBuilder.exe" size="253912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SandwichBuilder.exe" size="254424">
       <assemblyIdentity name="SandwichBuilder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tgNIbSNZ9VBwutyF81pIimAxL1iO+Bu6LG5I2aY56f0=</dsig:DigestValue>
+        <dsig:DigestValue>hp11SF05RSOQa9+AqiuHLW/5ie70SQ29CP/R9ex0eeo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

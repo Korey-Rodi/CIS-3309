@@ -115,6 +115,56 @@ namespace SandwichBuilder
 
             return sandwichInfo;
         }
+        public decimal getTotal()
+        {
+            Decimal subtotal = 0.0m;
+
+            subtotal += Pricing.CostCalculator(Pricing.SizePricing, size);
+            subtotal += Pricing.CostCalculator(Pricing.breadPricing, bread);
+
+
+            if (sauces != null)
+            {
+                foreach (string sauce in sauces)
+                {
+                    subtotal += Pricing.CostCalculator(Pricing.saucePricing, sauce);
+                }
+            }
+
+            if (meats != null)
+            {
+                foreach (string meat in meats)
+                {
+                    subtotal += Pricing.CostCalculator(Pricing.meatPricing, meat);
+                }
+            }
+
+            if (cheese != null)
+            {
+                foreach (string cheese in cheese)
+                {
+                    subtotal += Pricing.CostCalculator(Pricing.cheesePricing, cheese);
+                }
+            }
+
+            if (toppings != null)
+            {
+                foreach (string toppings in toppings)
+                {
+                    subtotal += Pricing.CostCalculator(Pricing.toppingsPricing, toppings);
+                }
+            }
+
+            if (premToppings != null)
+            {
+                foreach (string premToppings in premToppings)
+                {
+                    subtotal += Pricing.CostCalculator(Pricing.premToppingsPricing, premToppings);
+                }
+            }
+
+            return subtotal;
+        }
 
         public static class PreMadeSandwiches
         {

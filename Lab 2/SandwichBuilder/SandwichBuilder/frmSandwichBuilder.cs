@@ -56,10 +56,11 @@ namespace SandwichBuilder
                 gbSauces.Visible = true;
                 cbxSize.Visible = true;
                 pbxSandwichImage.Image = SandwichBuilder.Properties.Resources.Logo;
+                lblSandwichDesc.Text = "";
             }
 
         }
-        private Sandwich GetPreMade(String sandwich)
+        private Sandwich GetPreMade()
         {
             if (cbxPreMade.Text == "Small Love Turkey")
             {
@@ -134,56 +135,6 @@ namespace SandwichBuilder
             return sandwich;
             }
 
-        private decimal getTotal(Sandwich sandwich)
-        {
-            Decimal subtotal = 0.0m;
-           
-            subtotal += Pricing.CostCalculator(Pricing.SizePricing, sandwich.Size);
-            subtotal += Pricing.CostCalculator(Pricing.breadPricing, sandwich.Bread);
-
-           
-            if (sandwich.Sauces != null)
-            {
-                foreach (string sauce in sandwich.Sauces)
-                {
-                    subtotal += Pricing.CostCalculator(Pricing.saucePricing, sauce);
-                }
-            }
-
-            if (sandwich.Meats != null)
-            {
-                foreach (string meat in sandwich.Meats)
-                {
-                    subtotal += Pricing.CostCalculator(Pricing.meatPricing, meat);
-                }
-            }
-
-            if (sandwich.Cheese != null)
-            {
-                foreach (string cheese in sandwich.Cheese)
-                {
-                    subtotal += Pricing.CostCalculator(Pricing.cheesePricing, cheese);
-                }
-            }
-
-            if (sandwich.Toppings != null)
-            {
-                foreach (string toppings in sandwich.Toppings)
-                {
-                    subtotal += Pricing.CostCalculator(Pricing.toppingsPricing, toppings);
-                }
-            }
-
-            if (sandwich.PremToppings != null)
-            {
-                foreach (string premToppings in sandwich.PremToppings)
-                {
-                    subtotal += Pricing.CostCalculator(Pricing.premToppingsPricing, premToppings);
-                }
-            }
-
-            return subtotal;
-        }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
@@ -195,6 +146,11 @@ namespace SandwichBuilder
             if (txtAddress.Text.Length == 0 && cbxOrderType.Text == "Delivery")
             {
                 MessageBox.Show("You need to enter an address");
+                return;
+            }
+            if(cbxOrderType.SelectedIndex == -1)
+            {
+                MessageBox.Show("You need to select an order type");
                 return;
             }
             // This needed to be switched to long to process a full phone number
@@ -217,6 +173,7 @@ namespace SandwichBuilder
                     MessageBox.Show("You Must enter a size");
                     return;
                 }
+                //https://www.google.com/search?q=how+to+use+a+break+in+C%23+with+boolean&sca_esv=d35e14188c1eb546&rlz=1C1HKFL_enUS1220US1220&sxsrf=APpeQntUWVOniLNM2_YZI3VLG94zHYZ6Fw%3A1790203276526&ei=jFW0apzRH9fZ5NoP8dKmiAI&biw=1504&bih=834&uact=5&oq=how+to+use+a+break+in+C%23+with+boolean&gs_lp=Egxnd3Mtd2l6LXNlcnAiJWhvdyB0byB1c2UgYSBicmVhayBpbiBDIyB3aXRoIGJvb2xlYW4yBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSMUgUJoKWJ4ecAF4AZABAJgBkwGgAcYKqgEDNC45uAEDyAEA-AEBmAIOoAKsC8ICChAAGEcY1gQYsAPCAgYQABgWGB7CAgUQABjvBcICCBAAGIkFGKIEwgIFECEYqwKYAwCIBgGQBgiSBwQzLjExoAfgJ7IHBDIuMTG4B6ILwgcFMC42LjjIBzSACAE&sclient=gws-wiz-serp
                 bool breadPicked = false;
                 foreach(RadioButton rad in gbBread.Controls.OfType<RadioButton>())
                 {
@@ -226,7 +183,7 @@ namespace SandwichBuilder
                     }
 
                 }
-                if (!breadPicked) 
+                if (breadPicked == false) 
                 {
                     MessageBox.Show("You must select a bread");
                     return;
@@ -239,19 +196,19 @@ namespace SandwichBuilder
             Sandwich sandwich = null;
             if(cbxPreMade.Text != "Custom")
             {
-                sandwich = GetPreMade(cbxPreMade.Text);
-                subtotal = getTotal(sandwich);
+                sandwich = GetPreMade();
+                //subtotal = Sandwich.getTotal(sandwich); moved this code to sandwich bc it involves objects not gui 
+                subtotal = sandwich.getTotal();
             } else
             {
               sandwich = getCustom();
-              subtotal = getTotal(sandwich);
+              subtotal = sandwich.getTotal();
             }
             decimal total = subtotal + tip;
             Order order = new Order(customer, sandwich, orderType, tip, subtotal,total);
 
             //https://www.google.com/search?q=passing+object+to+new+form+in+C%23&rlz=1C1HKFL_enUS1220US1220&oq=passing+object+to+new+form+in+C%23&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBdIBCDc0MTJqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8
-            frmReceipt receipt = new frmReceipt();
-            receipt.lblReceiptInfo.Text = order.ToString();
+            frmReceipt receipt = new frmReceipt(order);
             receipt.ShowDialog();
 
 

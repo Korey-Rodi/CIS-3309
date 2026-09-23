@@ -55,6 +55,6 @@
         }
 
         #endregion
-        public System.Windows.Forms.Label lblReceiptInfo;
+        private System.Windows.Forms.Label lblReceiptInfo;
     }
 }
