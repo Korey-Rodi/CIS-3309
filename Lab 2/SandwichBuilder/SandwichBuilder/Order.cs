@@ -31,8 +31,8 @@ namespace SandwichBuilder
             String orderInfo = "";
 
             orderInfo += customer.ToString() + "\n" + orderType + "\n" +
-            sandwich.ToString() + "\n" + subtotal.ToString("C") + "\n"
-            + tip.ToString("C") + "\n" + total.ToString("C");
+            sandwich.ToString() + "\n" + "Subtotal: " + subtotal.ToString("C") + "\n" +
+            "+Tip: " + tip.ToString("C") + "\n" + "Total: " + total.ToString("C");
 
             return orderInfo;
 

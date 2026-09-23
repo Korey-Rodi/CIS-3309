@@ -31,18 +31,22 @@ namespace SandwichBuilder
                 cbxSize.Visible = false;
                 if (cbxPreMade.Text == "Small Love Turkey")
                 {
+                    lblSandwichDesc.Text = Sandwich.PreMadeSandwiches.preMade[0].Description;
                     pbxSandwichImage.Image = SandwichBuilder.Properties.Resources.Sandwich1;
                 }
                 else if (cbxPreMade.Text == "Large Hateful Turkey")
                 {
+                    lblSandwichDesc.Text = Sandwich.PreMadeSandwiches.preMade[1].Description;
                     pbxSandwichImage.Image = SandwichBuilder.Properties.Resources.Sandwich2;
                 }
                 else if (cbxPreMade.Text == "Party Hateful Turkey")
                 {
+                    lblSandwichDesc.Text = Sandwich.PreMadeSandwiches.preMade[2].Description;
                     pbxSandwichImage.Image = SandwichBuilder.Properties.Resources.Sandwich3;
                 }
 
-            } else
+            }
+            else
             {
                 gbBread.Visible = true;
                 gbCheese.Visible = true;
@@ -51,7 +55,7 @@ namespace SandwichBuilder
                 gbToppings.Visible = true;
                 gbSauces.Visible = true;
                 cbxSize.Visible = true;
-
+                pbxSandwichImage.Image = SandwichBuilder.Properties.Resources.Logo;
             }
 
         }
@@ -159,25 +163,25 @@ namespace SandwichBuilder
 
             if (sandwich.Cheese != null)
             {
-                foreach (string ch in sandwich.Cheese)
+                foreach (string cheese in sandwich.Cheese)
                 {
-                    subtotal += Pricing.CostCalculator(Pricing.cheesePricing, ch);
+                    subtotal += Pricing.CostCalculator(Pricing.cheesePricing, cheese);
                 }
             }
 
             if (sandwich.Toppings != null)
             {
-                foreach (string top in sandwich.Toppings)
+                foreach (string toppings in sandwich.Toppings)
                 {
-                    subtotal += Pricing.CostCalculator(Pricing.toppingsPricing, top);
+                    subtotal += Pricing.CostCalculator(Pricing.toppingsPricing, toppings);
                 }
             }
 
             if (sandwich.PremToppings != null)
             {
-                foreach (string prem in sandwich.PremToppings)
+                foreach (string premToppings in sandwich.PremToppings)
                 {
-                    subtotal += Pricing.CostCalculator(Pricing.premToppingsPricing, prem);
+                    subtotal += Pricing.CostCalculator(Pricing.premToppingsPricing, premToppings);
                 }
             }
 
@@ -186,6 +190,51 @@ namespace SandwichBuilder
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            if (txtName.Text.Length == 0)
+            {
+                MessageBox.Show("You need to enter a name for the order");
+                return;
+            }
+            if (txtAddress.Text.Length == 0 && cbxOrderType.Text == "Delivery")
+            {
+                MessageBox.Show("You need to enter an address");
+                return;
+            }
+            int phoneNumber;
+            if (!int.TryParse(txtPhone.Text, out phoneNumber))
+            {
+                MessageBox.Show("You need to enter a valid phone Number");
+                return;
+            }
+            decimal tip = 0.0m;
+            if (!decimal.TryParse(txtTip.Text, out tip) || tip < 0)
+            {
+                MessageBox.Show("Please enter a valid tip or 0.0");
+                return;
+            }
+            if (cbxPreMade.Text == "Custom")
+            {
+                if (cbxSize.SelectedIndex == -1)
+                {
+                    MessageBox.Show("You Must enter a size");
+                    return;
+                }
+                bool breadPicked = false;
+                foreach(RadioButton rad in gbBread.Controls.OfType<RadioButton>())
+                {
+                    if (rad.Checked){
+                        breadPicked = true;
+                        break;
+                    }
+
+                }
+                if (!breadPicked) 
+                {
+                    MessageBox.Show("You must select a bread");
+                    return;
+                }
+            }
+
             Customer customer = new Customer(txtName.Text,txtAddress.Text,txtPhone.Text);
             decimal subtotal = 0.0m;
             String orderType = cbxOrderType.Text;
@@ -198,11 +247,6 @@ namespace SandwichBuilder
             {
               sandwich = getCustom();
               subtotal = getTotal(sandwich);
-            }
-            decimal tip = 0.0m;
-            if (!decimal.TryParse(txtTip.Text, out tip) || tip < 0)
-            {
-                tip = 0.0m;
             }
             decimal total = subtotal + tip;
             Order order = new Order(customer, sandwich, orderType, tip, subtotal,total);

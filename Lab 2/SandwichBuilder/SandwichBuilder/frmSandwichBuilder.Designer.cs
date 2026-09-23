@@ -104,6 +104,7 @@
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.lblSauces = new System.Windows.Forms.Label();
             this.gbSauces = new System.Windows.Forms.GroupBox();
+            this.lblSandwichDesc = new System.Windows.Forms.Label();
             this.gbBread.SuspendLayout();
             this.gbCheese.SuspendLayout();
             this.gbMeats.SuspendLayout();
@@ -599,7 +600,7 @@
             // chkExtraPeppers
             // 
             this.chkExtraPeppers.AutoSize = true;
-            this.chkExtraPeppers.Location = new System.Drawing.Point(6, 178);
+            this.chkExtraPeppers.Location = new System.Drawing.Point(28, 178);
             this.chkExtraPeppers.Name = "chkExtraPeppers";
             this.chkExtraPeppers.Size = new System.Drawing.Size(135, 24);
             this.chkExtraPeppers.TabIndex = 51;
@@ -781,9 +782,9 @@
             // pbxLogo
             // 
             this.pbxLogo.Image = global::SandwichBuilder.Properties.Resources.Logo;
-            this.pbxLogo.Location = new System.Drawing.Point(837, 20);
+            this.pbxLogo.Location = new System.Drawing.Point(833, 20);
             this.pbxLogo.Name = "pbxLogo";
-            this.pbxLogo.Size = new System.Drawing.Size(321, 246);
+            this.pbxLogo.Size = new System.Drawing.Size(325, 246);
             this.pbxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxLogo.TabIndex = 65;
             this.pbxLogo.TabStop = false;
@@ -904,13 +905,22 @@
             this.gbSauces.TabIndex = 75;
             this.gbSauces.TabStop = false;
             // 
+            // lblSandwichDesc
+            // 
+            this.lblSandwichDesc.AutoSize = true;
+            this.lblSandwichDesc.Location = new System.Drawing.Point(98, 269);
+            this.lblSandwichDesc.Name = "lblSandwichDesc";
+            this.lblSandwichDesc.Size = new System.Drawing.Size(0, 20);
+            this.lblSandwichDesc.TabIndex = 76;
+            // 
             // frmSandwichBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.Info;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1187, 1032);
+            this.Controls.Add(this.lblSandwichDesc);
             this.Controls.Add(this.gbSauces);
             this.Controls.Add(this.pbxLogo);
             this.Controls.Add(this.pbxSandwichImage);
@@ -1030,6 +1040,7 @@
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.Label lblSauces;
         private System.Windows.Forms.GroupBox gbSauces;
+        private System.Windows.Forms.Label lblSandwichDesc;
     }
 }
 

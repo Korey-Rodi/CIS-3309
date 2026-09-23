@@ -1,5 +1,5 @@
-C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.exe.config
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.exe.config
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.pdb
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\System.Buffers.dll
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\System.Collections.Immutable.dll
@@ -14,6 +14,7 @@ C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\b
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\System.Reflection.Metadata.xml
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.frmReceipt.resources
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.frmSandwichBuilder.resources
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.Properties.Resources.resources
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.csproj.GenerateResource.cache
@@ -21,4 +22,3 @@ C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\o
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\Sandwich.01A20852.Up2Date
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.exe
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.pdb
-C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.frmReceipt.resources
