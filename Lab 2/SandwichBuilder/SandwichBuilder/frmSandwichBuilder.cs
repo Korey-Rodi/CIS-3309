@@ -210,8 +210,8 @@ namespace SandwichBuilder
             decimal tip = 0.0m;
             if (!decimal.TryParse(txtTip.Text, out tip) || tip < 0)
             {
-                MessageBox.Show("Please enter a valid tip or 0.0");
-                return;
+                tip = 0.0m;
+                // If tip is not a decimal or less than 0 set to 0
             }
             if (cbxPreMade.Text == "Custom")
             {
