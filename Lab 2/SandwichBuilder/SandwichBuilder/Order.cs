@@ -30,7 +30,7 @@ namespace SandwichBuilder
         {
             String orderInfo = "";
 
-            orderInfo += customer.ToString() + "\n" + orderType + "\n" +
+            orderInfo += "Koreys Sandwich Shop" + "\n" + customer.ToString() + "\n" + orderType + "\n" +
             sandwich.ToString() + "\n" + "Subtotal: " + subtotal.ToString("C") + "\n" +
             "+Tip: " + tip.ToString("C") + "\n" + "Total: " + total.ToString("C");
 

@@ -22,3 +22,7 @@ C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\o
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\Sandwich.01A20852.Up2Date
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.exe
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.exe.manifest
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\bin\Debug\SandwichBuilder.application
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.exe.manifest
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 2\SandwichBuilder\SandwichBuilder\obj\Debug\SandwichBuilder.application

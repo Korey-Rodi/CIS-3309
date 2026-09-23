@@ -101,17 +101,17 @@ namespace SandwichBuilder
         {
             String sandwichInfo = "";
 
-            sandwichInfo += name + "\n";
-            sandwichInfo += description + "\n";
-            sandwichInfo += size + "\n";
-            sandwichInfo += bread + "\n";
+            sandwichInfo += "Name: " + name + "\n";
+            sandwichInfo += "Desc: " + description + "\n";
+            sandwichInfo += "Size: " + size + "\n";
+            sandwichInfo += "Bread: " + bread + "\n";
 
             // https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-window-in-c-sharp
-            sandwichInfo += String.Join(", ", sauces) + "\n";
-            sandwichInfo += String.Join(", ", meats) + "\n";
-            sandwichInfo += String.Join(", ", cheese) + "\n";
-            sandwichInfo += String.Join(", ", toppings ?? new List<String>()) + "\n";
-            sandwichInfo += String.Join(", ", premToppings ?? new List<String>());
+            sandwichInfo += "Sauces: " + String.Join(", ", sauces) + "\n";
+            sandwichInfo += "Meats: " + String.Join(", ", meats) + "\n";
+            sandwichInfo += "Cheese: " + String.Join(", ", cheese) + "\n";
+            sandwichInfo += "Toppings: " + String.Join(", ", toppings) + "\n";
+            sandwichInfo += "Extra Toppings: " + String.Join(", ", premToppings);
 
             return sandwichInfo;
         }

@@ -200,8 +200,9 @@ namespace SandwichBuilder
                 MessageBox.Show("You need to enter an address");
                 return;
             }
-            int phoneNumber;
-            if (!int.TryParse(txtPhone.Text, out phoneNumber))
+            // This needed to be switched to long to process a full phone number
+            long phoneNumber;
+            if (!long.TryParse(txtPhone.Text, out phoneNumber))
             {
                 MessageBox.Show("You need to enter a valid phone Number");
                 return;
