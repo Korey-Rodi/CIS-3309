@@ -69,12 +69,9 @@ namespace SandwichBuilder
             {
                 return Sandwich.PreMadeSandwiches.preMade[1];
             }
-            else if (cbxPreMade.Text == "Party Hateful Turkey")
+            else
             {
                 return Sandwich.PreMadeSandwiches.preMade[2];
-            } else
-            {
-                return null;
             }
         
             }

@@ -29,18 +29,18 @@ namespace SandwichBuilder
         }
         internal static Dictionary<String, Decimal> SizePricing = new Dictionary<String, Decimal>
     {
-            { "Small", 5.00m },
-            { "Medium", 6.50m },
-            { "Large", 8.00m },
-            { "Extra-Large", 9.50m },
-            { "Party Size", 25.00m }
+            {"Small", 5.00m },
+            {"Medium", 6.50m },
+            {"Large", 8.00m },
+            {"Extra-Large", 9.50m },
+            {"Party Size", 25.00m }
     };
         internal static Dictionary<String, Decimal> breadPricing = new Dictionary<String, Decimal>
     {
             {"White", 1.00m},
             {"Rye",1.00m},
             {"Long Roll",1.50m },
-            {"Flatbread",.50m },
+            {"Flat bread",.50m },
             {"Wheat",2.00m},
             {"Whole Grain",5.00m }
 
@@ -110,6 +110,5 @@ namespace SandwichBuilder
              {"Extra Avocado", 2.00m},
              {"Extra Spinach", .20m}
          };
-
     }
 }

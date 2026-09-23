@@ -219,7 +219,7 @@
             "Medium",
             "Large",
             "Extra-Large",
-            "Party-Size"});
+            "Party Size"});
             this.cbxSize.Location = new System.Drawing.Point(477, 324);
             this.cbxSize.Name = "cbxSize";
             this.cbxSize.Size = new System.Drawing.Size(242, 31);
@@ -230,7 +230,7 @@
             // 
             this.lblBread.AutoSize = true;
             this.lblBread.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBread.Location = new System.Drawing.Point(118, 21);
+            this.lblBread.Location = new System.Drawing.Point(139, 21);
             this.lblBread.Name = "lblBread";
             this.lblBread.Size = new System.Drawing.Size(75, 20);
             this.lblBread.TabIndex = 11;
@@ -240,11 +240,12 @@
             // 
             this.radWhite.AutoSize = true;
             this.radWhite.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWhite.Location = new System.Drawing.Point(17, 53);
+            this.radWhite.Location = new System.Drawing.Point(0, 53);
             this.radWhite.Name = "radWhite";
             this.radWhite.Size = new System.Drawing.Size(90, 27);
             this.radWhite.TabIndex = 12;
             this.radWhite.TabStop = true;
+            this.radWhite.Tag = "White";
             this.radWhite.Text = "White";
             this.radWhite.UseVisualStyleBackColor = true;
             // 
@@ -252,7 +253,7 @@
             // 
             this.radFlat.AutoSize = true;
             this.radFlat.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radFlat.Location = new System.Drawing.Point(184, 53);
+            this.radFlat.Location = new System.Drawing.Point(203, 53);
             this.radFlat.Name = "radFlat";
             this.radFlat.Size = new System.Drawing.Size(130, 27);
             this.radFlat.TabIndex = 13;
@@ -264,11 +265,12 @@
             // 
             this.radRye.AutoSize = true;
             this.radRye.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radRye.Location = new System.Drawing.Point(17, 98);
+            this.radRye.Location = new System.Drawing.Point(0, 98);
             this.radRye.Name = "radRye";
             this.radRye.Size = new System.Drawing.Size(69, 27);
             this.radRye.TabIndex = 14;
             this.radRye.TabStop = true;
+            this.radRye.Tag = "Rye";
             this.radRye.Text = "Rye";
             this.radRye.UseVisualStyleBackColor = true;
             // 
@@ -276,7 +278,7 @@
             // 
             this.radWheat.AutoSize = true;
             this.radWheat.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWheat.Location = new System.Drawing.Point(184, 99);
+            this.radWheat.Location = new System.Drawing.Point(203, 98);
             this.radWheat.Name = "radWheat";
             this.radWheat.Size = new System.Drawing.Size(95, 27);
             this.radWheat.TabIndex = 15;
@@ -288,7 +290,7 @@
             // 
             this.radLong.AutoSize = true;
             this.radLong.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLong.Location = new System.Drawing.Point(17, 134);
+            this.radLong.Location = new System.Drawing.Point(0, 134);
             this.radLong.Name = "radLong";
             this.radLong.Size = new System.Drawing.Size(119, 27);
             this.radLong.TabIndex = 16;
@@ -300,7 +302,7 @@
             // 
             this.radWhole.AutoSize = true;
             this.radWhole.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWhole.Location = new System.Drawing.Point(181, 134);
+            this.radWhole.Location = new System.Drawing.Point(203, 134);
             this.radWhole.Name = "radWhole";
             this.radWhole.Size = new System.Drawing.Size(149, 27);
             this.radWhole.TabIndex = 17;
@@ -432,7 +434,7 @@
             // 
             this.lblCheese.AutoSize = true;
             this.lblCheese.Font = new System.Drawing.Font("MingLiU-ExtB", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCheese.Location = new System.Drawing.Point(160, 11);
+            this.lblCheese.Location = new System.Drawing.Point(134, 11);
             this.lblCheese.Name = "lblCheese";
             this.lblCheese.Size = new System.Drawing.Size(86, 20);
             this.lblCheese.TabIndex = 31;
@@ -442,7 +444,7 @@
             // 
             this.chkCheddar.AutoSize = true;
             this.chkCheddar.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkCheddar.Location = new System.Drawing.Point(32, 55);
+            this.chkCheddar.Location = new System.Drawing.Point(6, 55);
             this.chkCheddar.Name = "chkCheddar";
             this.chkCheddar.Size = new System.Drawing.Size(114, 27);
             this.chkCheddar.TabIndex = 32;
@@ -464,7 +466,7 @@
             // 
             this.chkPepperJack.AutoSize = true;
             this.chkPepperJack.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkPepperJack.Location = new System.Drawing.Point(32, 89);
+            this.chkPepperJack.Location = new System.Drawing.Point(6, 88);
             this.chkPepperJack.Name = "chkPepperJack";
             this.chkPepperJack.Size = new System.Drawing.Size(146, 27);
             this.chkPepperJack.TabIndex = 34;
@@ -475,7 +477,7 @@
             // 
             this.chkGouda.AutoSize = true;
             this.chkGouda.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkGouda.Location = new System.Drawing.Point(204, 88);
+            this.chkGouda.Location = new System.Drawing.Point(204, 86);
             this.chkGouda.Name = "chkGouda";
             this.chkGouda.Size = new System.Drawing.Size(95, 27);
             this.chkGouda.TabIndex = 35;
@@ -721,9 +723,9 @@
             this.gbBread.Controls.Add(this.radWhite);
             this.gbBread.Controls.Add(this.lblBread);
             this.gbBread.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbBread.Location = new System.Drawing.Point(33, 292);
+            this.gbBread.Location = new System.Drawing.Point(12, 292);
             this.gbBread.Name = "gbBread";
-            this.gbBread.Size = new System.Drawing.Size(339, 220);
+            this.gbBread.Size = new System.Drawing.Size(421, 220);
             this.gbBread.TabIndex = 57;
             this.gbBread.TabStop = false;
             // 
