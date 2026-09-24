@@ -115,7 +115,7 @@ namespace SandwichBuilder
 
             return sandwichInfo;
         }
-        public decimal getTotal()
+        public decimal GetTotal()
         {
             Decimal subtotal = 0.0m;
 

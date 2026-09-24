@@ -76,7 +76,7 @@ namespace SandwichBuilder
             }
         
             }
-        private Sandwich getCustom()
+        private Sandwich GetCustom()
         {
             String name = "Custom";
             String description = "Custom made sandwich";
@@ -198,11 +198,11 @@ namespace SandwichBuilder
             {
                 sandwich = GetPreMade();
                 //subtotal = Sandwich.getTotal(sandwich); moved this code to sandwich bc it involves objects not gui 
-                subtotal = sandwich.getTotal();
+                subtotal = sandwich.GetTotal();
             } else
             {
-              sandwich = getCustom();
-              subtotal = sandwich.getTotal();
+              sandwich = GetCustom();
+              subtotal = sandwich.GetTotal();
             }
             decimal total = subtotal + tip;
             Order order = new Order(customer, sandwich, orderType, tip, subtotal,total);
