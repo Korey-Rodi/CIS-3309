@@ -1,0 +1,45 @@
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\bin\Debug\School.accdb
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.exe
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.pdb
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.frmStudentInfo.resources
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.Properties.Resources.resources
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.csproj.GenerateResource.Cache
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.exe
+C:\Teaching\CIS3309 - Component-Based Software Design\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.pdb
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\bin\Debug\School.accdb
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.exe
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\bin\Debug\DatabaseExample.pdb
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.frmStudentInfo.resources
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.Properties.Resources.resources
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.csproj.GenerateResource.Cache
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.exe
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.pdb
+C:\Users\pascucci\Documents\Visual Studio 2012\Projects\CIS3309TeachingSolution\DatabaseExample\obj\Debug\DatabaseExample.csprojResolveAssemblyReference.cache
+C:\Users\pascucci\Desktop\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+C:\Users\pascucci\Desktop\DatabaseExample\obj\Debug\DatabaseExample.exe
+C:\Users\pascucci\Desktop\DatabaseExample\obj\Debug\DatabaseExample.pdb
+C:\Users\Christopher\Desktop\DatabaseExample\bin\Debug\School.accdb
+C:\Users\Christopher\Desktop\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+C:\Users\Christopher\Desktop\DatabaseExample\bin\Debug\DatabaseExample.exe
+C:\Users\Christopher\Desktop\DatabaseExample\bin\Debug\DatabaseExample.pdb
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.csproj.AssemblyReference.cache
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.Properties.Resources.resources
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.exe
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.pdb
+C:\Users\Christopher\Desktop\DatabaseExample\obj\Debug\DatabaseExample.frmStudents.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\bin\Debug\School.accdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.frmStudents.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Class_Demos\DatabaseExample\DatabaseExample\bin\Debug\CarInventory.accdb
