@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\DatabaseExample2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0E7221-C1D9-4799-AA0C-FD3550BE784C}|DatabaseExample2.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\cis_3309_class_demos\\databaseexample2\\frmstudentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0E7221-C1D9-4799-AA0C-FD3550BE784C}|DatabaseExample2.csproj|solutionrelative:frmstudentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmStudentInfo.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\DatabaseExample2\\frmStudentInfo.cs",
+              "RelativeDocumentMoniker": "frmStudentInfo.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\CIS_3309_Class_Demos\\DatabaseExample2\\frmStudentInfo.cs",
+              "RelativeToolTip": "frmStudentInfo.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAiwKQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:50:57.286Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
