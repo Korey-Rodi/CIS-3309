@@ -1,0 +1,10 @@
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.Form1.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\bin\Debug\PanelExample.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\bin\Debug\PanelExample.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\bin\Debug\PanelExample.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\CIS_3309_Lab_Demos\classexampledemolab6\PanelExample\PanelExample\obj\Debug\PanelExample.pdb
