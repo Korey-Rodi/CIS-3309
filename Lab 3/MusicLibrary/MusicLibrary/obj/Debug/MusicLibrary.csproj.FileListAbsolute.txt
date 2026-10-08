@@ -1,0 +1,11 @@
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\bin\Debug\Music.accdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\bin\Debug\MusicLibrary.exe.config
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\bin\Debug\MusicLibrary.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\bin\Debug\MusicLibrary.pdb
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.csproj.AssemblyReference.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.frmLibrary.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.Properties.Resources.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.csproj.GenerateResource.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.exe
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.pdb
