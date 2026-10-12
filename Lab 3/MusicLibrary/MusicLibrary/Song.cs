@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace MusicLibrary
 {
+    // Song ID should be removed jusr use joins with the titles and
+    // store the title in the playlist name
     internal class Song // This class main job is to create objects all methods should go in controller code
     {
         public String title {  get; set; }
