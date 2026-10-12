@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmsongview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmsongview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmsongview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmsongview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSongView.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmSongView.cs",
+              "RelativeDocumentMoniker": "MusicLibrary\\frmSongView.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmSongView.cs",
+              "RelativeToolTip": "MusicLibrary\\frmSongView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T22:48:50.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSongView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmSongView.cs",
+              "RelativeDocumentMoniker": "MusicLibrary\\frmSongView.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmSongView.cs [Design]",
+              "RelativeToolTip": "MusicLibrary\\frmSongView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T22:13:32.064Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
