@@ -12,13 +12,13 @@ namespace MusicLibrary
         public String title {  get; set; }
         public String artist { get; set; }
         public String album { get; set; }
-        public int year { get; set; }
+        public String year { get; set; }
         public String desc { get; set; }
         public String genre { get; set; }
-        public int duration { get; set; }
+        public String duration { get; set; }
         public String albumUrl { get; set; }
     public Song(String title, String artist, String album, 
-        int year, String desc, String genre, int duration,String albumUrl)
+        String year, String desc, String genre, String duration,String albumUrl)
         {
             this.title = title;
             this.artist = artist;

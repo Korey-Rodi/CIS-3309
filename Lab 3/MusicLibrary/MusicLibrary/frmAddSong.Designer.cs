@@ -98,6 +98,12 @@
             // cbxGenre
             // 
             this.cbxGenre.FormattingEnabled = true;
+            this.cbxGenre.Items.AddRange(new object[] {
+            "Pop",
+            "Rock",
+            "Grunge",
+            "Emo",
+            "Lofi"});
             this.cbxGenre.Location = new System.Drawing.Point(166, 106);
             this.cbxGenre.Name = "cbxGenre";
             this.cbxGenre.Size = new System.Drawing.Size(191, 28);
@@ -112,6 +118,7 @@
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // frmAddSong
             // 

@@ -38,19 +38,17 @@ namespace MusicLibrary
             DataTable songTable = myDataSet.Tables["Song"];
 
             foreach (DataRow row in songTable.Rows)
-                // Change year and duration to strings to avoid exces conversions
             {
                 string title = row["Title"].ToString();
                 string artist = row["Artist"].ToString();
                 string album = row["Album"].ToString();
                 string genre = row["Genre"].ToString();
                 string description = row["Desc"].ToString();
-                int year = Convert.ToInt32(row["Year"]);
-                int duration = Convert.ToInt32(row["Duration"]);
+                string year = row["Year"].ToString();
+                string duration = row["Duration"].ToString();
                 string albumURL = row["AlbumURL"].ToString();
 
-                Song Song = new Song(title, artist, album, year,
-                                        description, genre, duration, albumURL);
+                Song Song = new Song(title, artist, album, year, description, genre, duration, albumURL);
                 myLibrary.MusicLibrary.Add(Song);
             }
             dgvLibrary.DataSource = myLibrary.MusicLibrary;
@@ -84,8 +82,8 @@ namespace MusicLibrary
                 string album = row["Album"].ToString();
                 string genre = row["Genre"].ToString();
                 string description = row["Desc"].ToString();
-                int year = Convert.ToInt32(row["Year"]);
-                int duration = Convert.ToInt32(row["Duration"]);
+                string year = row["Year"].ToString();
+                string duration = row["Duration"].ToString();
                 string albumURL = row["AlbumURL"].ToString();
 
                 Song Song = new Song(title, artist, album, year, description, genre, duration, albumURL);
