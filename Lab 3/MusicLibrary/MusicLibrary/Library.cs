@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MusicLibrary
 {
-    internal class Library
+    public class Library
     {
         public List<Song> MusicLibrary = new List<Song>();
         public Library(List<Song> MusicLibrary)

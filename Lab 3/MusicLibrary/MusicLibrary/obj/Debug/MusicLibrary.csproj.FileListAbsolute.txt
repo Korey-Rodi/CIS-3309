@@ -10,3 +10,4 @@ C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Deb
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.exe
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.pdb
 C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.frmSongView.resources
+C:\Users\rodik\Documents\GitHub\CIS 3309\Lab 3\MusicLibrary\MusicLibrary\obj\Debug\MusicLibrary.frmAddSong.resources

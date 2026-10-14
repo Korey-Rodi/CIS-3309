@@ -30,12 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dgvLibrary = new System.Windows.Forms.DataGridView();
-            this.musicDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.musicDataSet = new MusicLibrary.MusicDataSet();
-            this.btnViewSong = new System.Windows.Forms.Button();
             this.Artist = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Album = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.musicDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.musicDataSet = new MusicLibrary.MusicDataSet();
+            this.btnView = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnAddSong = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibrary)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSet)).BeginInit();
@@ -45,38 +47,21 @@
             // 
             this.dgvLibrary.AutoGenerateColumns = false;
             this.dgvLibrary.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvLibrary.BackgroundColor = System.Drawing.Color.White;
             this.dgvLibrary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLibrary.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Artist,
             this.Title,
             this.Album});
             this.dgvLibrary.DataSource = this.musicDataSetBindingSource;
-            this.dgvLibrary.Location = new System.Drawing.Point(17, 135);
+            this.dgvLibrary.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.dgvLibrary.Location = new System.Drawing.Point(12, 274);
             this.dgvLibrary.Name = "dgvLibrary";
             this.dgvLibrary.RowHeadersWidth = 62;
             this.dgvLibrary.RowTemplate.Height = 28;
-            this.dgvLibrary.Size = new System.Drawing.Size(856, 516);
+            this.dgvLibrary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgvLibrary.Size = new System.Drawing.Size(856, 381);
             this.dgvLibrary.TabIndex = 5;
-            // 
-            // musicDataSetBindingSource
-            // 
-            this.musicDataSetBindingSource.DataSource = this.musicDataSet;
-            this.musicDataSetBindingSource.Position = 0;
-            // 
-            // musicDataSet
-            // 
-            this.musicDataSet.DataSetName = "MusicDataSet";
-            this.musicDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // btnViewSong
-            // 
-            this.btnViewSong.Location = new System.Drawing.Point(33, 20);
-            this.btnViewSong.Name = "btnViewSong";
-            this.btnViewSong.Size = new System.Drawing.Size(164, 29);
-            this.btnViewSong.TabIndex = 6;
-            this.btnViewSong.Text = "View Song";
-            this.btnViewSong.UseVisualStyleBackColor = true;
-            this.btnViewSong.Click += new System.EventHandler(this.btnViewSong_Click);
             // 
             // Artist
             // 
@@ -99,13 +84,55 @@
             this.Album.MinimumWidth = 8;
             this.Album.Name = "Album";
             // 
+            // musicDataSetBindingSource
+            // 
+            this.musicDataSetBindingSource.DataSource = this.musicDataSet;
+            this.musicDataSetBindingSource.Position = 0;
+            // 
+            // musicDataSet
+            // 
+            this.musicDataSet.DataSetName = "MusicDataSet";
+            this.musicDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // btnView
+            // 
+            this.btnView.Location = new System.Drawing.Point(19, 13);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(208, 50);
+            this.btnView.TabIndex = 6;
+            this.btnView.Text = "View";
+            this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(660, 13);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(208, 50);
+            this.btnRefresh.TabIndex = 7;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // btnAddSong
+            // 
+            this.btnAddSong.Location = new System.Drawing.Point(348, 13);
+            this.btnAddSong.Name = "btnAddSong";
+            this.btnAddSong.Size = new System.Drawing.Size(208, 50);
+            this.btnAddSong.TabIndex = 8;
+            this.btnAddSong.Text = "Add Song";
+            this.btnAddSong.UseVisualStyleBackColor = true;
+            this.btnAddSong.Click += new System.EventHandler(this.btnAddSong_Click);
+            // 
             // frmLibrary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(886, 667);
-            this.Controls.Add(this.btnViewSong);
+            this.Controls.Add(this.btnAddSong);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.btnView);
             this.Controls.Add(this.dgvLibrary);
             this.Name = "frmLibrary";
             this.Text = "Music Player";
@@ -118,13 +145,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dgvLibrary;
+        public System.Windows.Forms.DataGridView dgvLibrary;
         private System.Windows.Forms.BindingSource musicDataSetBindingSource;
         private MusicDataSet musicDataSet;
-        private System.Windows.Forms.Button btnViewSong;
         private System.Windows.Forms.DataGridViewTextBoxColumn Artist;
         private System.Windows.Forms.DataGridViewTextBoxColumn Title;
         private System.Windows.Forms.DataGridViewTextBoxColumn Album;
+        private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Button btnAddSong;
     }
 }
 

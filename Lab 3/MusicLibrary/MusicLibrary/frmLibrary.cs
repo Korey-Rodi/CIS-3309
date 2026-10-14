@@ -11,8 +11,15 @@ using System.Windows.Forms;
 
 namespace MusicLibrary
 {
+
     public partial class frmLibrary : Form
     {
+        Library myLibrary;
+        OleDbConnection myConnection;
+        OleDbDataAdapter myDataAdapter;
+        DataSet myDataSet;
+        BindingSource myBindingSource;
+        string strSQL;
         public frmLibrary()
         {
             InitializeComponent();
@@ -20,32 +27,80 @@ namespace MusicLibrary
 
         private void frmLibrary_Load(object sender, EventArgs e)
         {
-            String strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
-            OleDbConnection myConnection = new OleDbConnection(strConnection);
-            String strSQL = "SELECT * FROM Song";
-            OleDbDataAdapter myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
-            DataSet myDataSet = new DataSet();
+            myLibrary = new Library(new List<Song>());
 
+            string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
+            myConnection = new OleDbConnection(strConnection);
+            strSQL = "SELECT * FROM Song";
+            myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
+            myDataSet = new DataSet();
             myDataAdapter.Fill(myDataSet, "Song");
+            DataTable songTable = myDataSet.Tables["Song"];
 
-            dgvLibrary.DataSource = myDataSet.Tables["Song"];
+            foreach (DataRow row in songTable.Rows)
+                // Change year and duration to strings to avoid exces conversions
+            {
+                string title = row["Title"].ToString();
+                string artist = row["Artist"].ToString();
+                string album = row["Album"].ToString();
+                string genre = row["Genre"].ToString();
+                string description = row["Desc"].ToString();
+                int year = Convert.ToInt32(row["Year"]);
+                int duration = Convert.ToInt32(row["Duration"]);
+                string albumURL = row["AlbumURL"].ToString();
+
+                Song Song = new Song(title, artist, album, year,
+                                        description, genre, duration, albumURL);
+                myLibrary.MusicLibrary.Add(Song);
+            }
+            dgvLibrary.DataSource = myLibrary.MusicLibrary;
+            myConnection.Close();
 
         }
 
-        private void btnViewSong_Click(object sender, EventArgs e)
+        private void btnView_Click(object sender, EventArgs e)
         {
-                DataRowView song = (DataRowView)dgvLibrary.SelectedRows[0].DataBoundItem;
+            Song selectedSong = (Song)dgvLibrary.CurrentRow.DataBoundItem;
+            Form frm = new frmSongView(selectedSong);
+            frm.ShowDialog();
+        }
 
-                frmSongView frm = new frmSongView();
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            myLibrary.MusicLibrary.Clear();
 
-                BindingSource myBindingSource = new BindingSource();
-                myBindingSource.DataSource = song;
+            string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
+            myConnection = new OleDbConnection(strConnection);
+            strSQL = "SELECT * FROM Song";
+            myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
+            myDataSet = new DataSet();
+            myDataAdapter.Fill(myDataSet, "Song");
+            DataTable songTable = myDataSet.Tables["Song"];
 
-                frm.txtTitle.DataBindings.Add("Text", myBindingSource, "Title");
-                frm.txtArtist.DataBindings.Add("Text", myBindingSource, "Artist");
-                frm.txtAlbum.DataBindings.Add("Text", myBindingSource, "Album");
+            foreach (DataRow row in songTable.Rows)
+            {
+                string title = row["Title"].ToString();
+                string artist = row["Artist"].ToString();
+                string album = row["Album"].ToString();
+                string genre = row["Genre"].ToString();
+                string description = row["Desc"].ToString();
+                int year = Convert.ToInt32(row["Year"]);
+                int duration = Convert.ToInt32(row["Duration"]);
+                string albumURL = row["AlbumURL"].ToString();
 
-                frm.ShowDialog();
+                Song Song = new Song(title, artist, album, year, description, genre, duration, albumURL);
+                myLibrary.MusicLibrary.Add(Song);
             }
+            //https://www.google.com/search?q=how+to+resest+a+data+grid+view&rlz=1C1HKFL_enUS1220US1220&oq=how+to+resest+a+data+grid+view&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgKGBYYHjIHCAIQABjvBTIKCAMQABiiBBiJBTIKCAQQABiiBBiJBTIHCAUQABjvBdIBCDQ4ODBqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8
+            dgvLibrary.DataSource = null;
+            dgvLibrary.DataSource = myLibrary.MusicLibrary;
+
+        }
+
+        private void btnAddSong_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmAddSong();
+            frm.ShowDialog();
         }
     }
+}
