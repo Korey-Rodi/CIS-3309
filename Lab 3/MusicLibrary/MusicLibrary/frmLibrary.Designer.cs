@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvLibrary = new System.Windows.Forms.DataGridView();
             this.Artist = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,6 +40,11 @@
             this.btnView = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnAddSong = new System.Windows.Forms.Button();
+            this.lblSearch = new System.Windows.Forms.Label();
+            this.radArtist = new System.Windows.Forms.RadioButton();
+            this.radGenre = new System.Windows.Forms.RadioButton();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibrary)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSet)).BeginInit();
@@ -50,28 +56,36 @@
             this.dgvLibrary.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvLibrary.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvLibrary.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvLibrary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvLibrary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLibrary.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Artist,
             this.Title,
             this.Album});
             this.dgvLibrary.DataSource = this.musicDataSetBindingSource;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvLibrary.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvLibrary.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvLibrary.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvLibrary.Location = new System.Drawing.Point(12, 274);
+            this.dgvLibrary.Location = new System.Drawing.Point(18, 428);
             this.dgvLibrary.Name = "dgvLibrary";
             this.dgvLibrary.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dgvLibrary.RowHeadersWidth = 62;
             this.dgvLibrary.RowTemplate.Height = 28;
             this.dgvLibrary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvLibrary.Size = new System.Drawing.Size(856, 381);
+            this.dgvLibrary.Size = new System.Drawing.Size(856, 446);
             this.dgvLibrary.TabIndex = 5;
             // 
             // Artist
@@ -107,9 +121,10 @@
             // 
             // btnView
             // 
+            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView.Location = new System.Drawing.Point(19, 13);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(208, 50);
+            this.btnView.Size = new System.Drawing.Size(294, 197);
             this.btnView.TabIndex = 6;
             this.btnView.Text = "View";
             this.btnView.UseVisualStyleBackColor = true;
@@ -117,9 +132,10 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(660, 13);
+            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.Location = new System.Drawing.Point(589, 13);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(208, 50);
+            this.btnRefresh.Size = new System.Drawing.Size(279, 197);
             this.btnRefresh.TabIndex = 7;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -127,20 +143,83 @@
             // 
             // btnAddSong
             // 
-            this.btnAddSong.Location = new System.Drawing.Point(348, 13);
+            this.btnAddSong.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddSong.Location = new System.Drawing.Point(319, 13);
             this.btnAddSong.Name = "btnAddSong";
-            this.btnAddSong.Size = new System.Drawing.Size(208, 50);
+            this.btnAddSong.Size = new System.Drawing.Size(264, 197);
             this.btnAddSong.TabIndex = 8;
             this.btnAddSong.Text = "Add Song";
             this.btnAddSong.UseVisualStyleBackColor = true;
             this.btnAddSong.Click += new System.EventHandler(this.btnAddSong_Click);
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblSearch.Location = new System.Drawing.Point(74, 224);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(182, 37);
+            this.lblSearch.TabIndex = 9;
+            this.lblSearch.Text = "Search By:";
+            // 
+            // radArtist
+            // 
+            this.radArtist.AutoSize = true;
+            this.radArtist.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radArtist.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radArtist.Location = new System.Drawing.Point(347, 224);
+            this.radArtist.Name = "radArtist";
+            this.radArtist.Size = new System.Drawing.Size(211, 41);
+            this.radArtist.TabIndex = 10;
+            this.radArtist.TabStop = true;
+            this.radArtist.Text = "Artist/Band";
+            this.radArtist.UseVisualStyleBackColor = true;
+            // 
+            // radGenre
+            // 
+            this.radGenre.AutoSize = true;
+            this.radGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radGenre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radGenre.Location = new System.Drawing.Point(669, 224);
+            this.radGenre.Name = "radGenre";
+            this.radGenre.Size = new System.Drawing.Size(135, 41);
+            this.radGenre.TabIndex = 11;
+            this.radGenre.TabStop = true;
+            this.radGenre.Text = "Genre";
+            this.radGenre.UseVisualStyleBackColor = true;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(16, 269);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(851, 44);
+            this.txtSearch.TabIndex = 12;
+            this.txtSearch.Text = "Search Criteria:";
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(16, 342);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(858, 64);
+            this.btnSearch.TabIndex = 13;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // frmLibrary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(886, 667);
+            this.ClientSize = new System.Drawing.Size(886, 894);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.radGenre);
+            this.Controls.Add(this.radArtist);
+            this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.btnAddSong);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnView);
@@ -152,6 +231,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSet)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -165,6 +245,11 @@
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnAddSong;
+        private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.RadioButton radArtist;
+        private System.Windows.Forms.RadioButton radGenre;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
 
