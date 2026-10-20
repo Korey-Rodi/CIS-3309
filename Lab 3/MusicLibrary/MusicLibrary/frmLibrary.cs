@@ -18,7 +18,6 @@ namespace MusicLibrary
         OleDbConnection myConnection;
         OleDbDataAdapter myDataAdapter;
         DataSet myDataSet;
-        BindingSource myBindingSource;
         string strSQL;
         public frmLibrary()
         {
@@ -156,6 +155,12 @@ namespace MusicLibrary
                 dgvLibrary.DataSource = null;
                 dgvLibrary.DataSource = myLibrary.MusicLibrary;
             }
+        }
+
+        private void btnPlaylists_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmPlaylists();
+            frm.ShowDialog();
         }
     }
 }

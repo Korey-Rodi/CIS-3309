@@ -36,7 +36,7 @@
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Album = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.musicDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.musicDataSet = new MusicLibrary.MusicDataSet();
+            this.musicDataSet = new MusicLibrary.MusicDataSet1();
             this.btnView = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnAddSong = new System.Windows.Forms.Button();
@@ -45,6 +45,7 @@
             this.radGenre = new System.Windows.Forms.RadioButton();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.btnPlaylists = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibrary)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.musicDataSet)).BeginInit();
@@ -85,7 +86,7 @@
             this.dgvLibrary.RowHeadersWidth = 62;
             this.dgvLibrary.RowTemplate.Height = 28;
             this.dgvLibrary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvLibrary.Size = new System.Drawing.Size(856, 446);
+            this.dgvLibrary.Size = new System.Drawing.Size(856, 405);
             this.dgvLibrary.TabIndex = 5;
             // 
             // Artist
@@ -209,12 +210,24 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // btnPlaylists
+            // 
+            this.btnPlaylists.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlaylists.Location = new System.Drawing.Point(19, 851);
+            this.btnPlaylists.Name = "btnPlaylists";
+            this.btnPlaylists.Size = new System.Drawing.Size(848, 45);
+            this.btnPlaylists.TabIndex = 14;
+            this.btnPlaylists.Text = "Playlists";
+            this.btnPlaylists.UseVisualStyleBackColor = true;
+            this.btnPlaylists.Click += new System.EventHandler(this.btnPlaylists_Click);
+            // 
             // frmLibrary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(886, 894);
+            this.ClientSize = new System.Drawing.Size(886, 908);
+            this.Controls.Add(this.btnPlaylists);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.radGenre);
@@ -238,7 +251,7 @@
         #endregion
         public System.Windows.Forms.DataGridView dgvLibrary;
         private System.Windows.Forms.BindingSource musicDataSetBindingSource;
-        private MusicDataSet musicDataSet;
+        private MusicDataSet1 musicDataSet;
         private System.Windows.Forms.DataGridViewTextBoxColumn Artist;
         private System.Windows.Forms.DataGridViewTextBoxColumn Title;
         private System.Windows.Forms.DataGridViewTextBoxColumn Album;
@@ -250,6 +263,7 @@
         private System.Windows.Forms.RadioButton radGenre;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnPlaylists;
     }
 }
 

@@ -54,11 +54,23 @@
     <Compile Include="frmAddSong.Designer.cs">
       <DependentUpon>frmAddSong.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCreatePlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreatePlaylist.Designer.cs">
+      <DependentUpon>frmCreatePlaylist.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLibrary.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLibrary.Designer.cs">
       <DependentUpon>frmLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaylists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaylists.Designer.cs">
+      <DependentUpon>frmPlaylists.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSongView.cs">
       <SubType>Form</SubType>
@@ -67,10 +79,10 @@
       <DependentUpon>frmSongView.cs</DependentUpon>
     </Compile>
     <Compile Include="Library.cs" />
-    <Compile Include="MusicDataSet.Designer.cs">
+    <Compile Include="MusicDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
+      <DependentUpon>MusicDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Playlist.cs" />
     <Compile Include="Program.cs" />
@@ -79,8 +91,14 @@
     <EmbeddedResource Include="frmAddSong.resx">
       <DependentUpon>frmAddSong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCreatePlaylist.resx">
+      <DependentUpon>frmCreatePlaylist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLibrary.resx">
       <DependentUpon>frmLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaylists.resx">
+      <DependentUpon>frmPlaylists.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSongView.resx">
       <DependentUpon>frmSongView.cs</DependentUpon>
@@ -94,16 +112,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="MusicDataSet.xsc">
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
+    <None Include="MusicDataSet1.xsc">
+      <DependentUpon>MusicDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="MusicDataSet.xsd">
+    <None Include="MusicDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MusicDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>MusicDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="MusicDataSet.xss">
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
+    <None Include="MusicDataSet1.xss">
+      <DependentUpon>MusicDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
