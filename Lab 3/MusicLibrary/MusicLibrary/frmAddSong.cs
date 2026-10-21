@@ -23,6 +23,14 @@ namespace MusicLibrary
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            //String title = txtTitle.Text;
+            //String artist = txtArtist.Text;
+            //String album = txtAlbum.Text;
+            //String year = txtYear.Text;
+            //String desc = txtDesc.Text;
+            //String genre = cbxGenre.Text;
+            //String duration = txtDuration.Text;
+            //String albumUrl = txtAlbumURL.Text;
             string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
             myConnection = new OleDbConnection(strConnection);
             strSQL = "INSERT INTO Song VALUES ('" + txtTitle.Text + "', '" + txtArtist.Text + "', '" + txtAlbum.Text + "', '"

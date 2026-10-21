@@ -49,14 +49,17 @@
             // lblPlaylist
             // 
             this.lblPlaylist.AutoSize = true;
-            this.lblPlaylist.Location = new System.Drawing.Point(433, 0);
+            this.lblPlaylist.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlaylist.ForeColor = System.Drawing.Color.Green;
+            this.lblPlaylist.Location = new System.Drawing.Point(345, 4);
             this.lblPlaylist.Name = "lblPlaylist";
-            this.lblPlaylist.Size = new System.Drawing.Size(120, 20);
+            this.lblPlaylist.Size = new System.Drawing.Size(261, 37);
             this.lblPlaylist.TabIndex = 1;
             this.lblPlaylist.Text = "Choose Playlist:";
             // 
             // btnCreatePlaylist
             // 
+            this.btnCreatePlaylist.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreatePlaylist.Location = new System.Drawing.Point(12, 538);
             this.btnCreatePlaylist.Name = "btnCreatePlaylist";
             this.btnCreatePlaylist.Size = new System.Drawing.Size(239, 129);
@@ -67,6 +70,7 @@
             // 
             // btnAddSongs
             // 
+            this.btnAddSongs.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddSongs.Location = new System.Drawing.Point(257, 538);
             this.btnAddSongs.Name = "btnAddSongs";
             this.btnAddSongs.Size = new System.Drawing.Size(247, 129);
@@ -77,6 +81,7 @@
             // 
             // btnView
             // 
+            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView.Location = new System.Drawing.Point(510, 538);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(248, 129);
@@ -97,10 +102,11 @@
             // 
             // cbxPlaylist
             // 
+            this.cbxPlaylist.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxPlaylist.FormattingEnabled = true;
-            this.cbxPlaylist.Location = new System.Drawing.Point(395, 29);
+            this.cbxPlaylist.Location = new System.Drawing.Point(296, 44);
             this.cbxPlaylist.Name = "cbxPlaylist";
-            this.cbxPlaylist.Size = new System.Drawing.Size(202, 28);
+            this.cbxPlaylist.Size = new System.Drawing.Size(390, 45);
             this.cbxPlaylist.TabIndex = 9;
             this.cbxPlaylist.SelectedIndexChanged += new System.EventHandler(this.cbxPlaylist_SelectedIndexChanged);
             // 
@@ -108,7 +114,8 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(406, 71);
+            this.lblName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblName.Location = new System.Drawing.Point(289, 101);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(0, 37);
             this.lblName.TabIndex = 10;
@@ -118,7 +125,8 @@
             // 
             this.lblDesc.AutoSize = true;
             this.lblDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc.Location = new System.Drawing.Point(409, 119);
+            this.lblDesc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDesc.Location = new System.Drawing.Point(289, 156);
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.Size = new System.Drawing.Size(0, 37);
             this.lblDesc.TabIndex = 11;
@@ -136,6 +144,7 @@
             // 
             // btnLoad
             // 
+            this.btnLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoad.Location = new System.Drawing.Point(764, 538);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(228, 129);
@@ -148,15 +157,18 @@
             // 
             this.lblSongCount.AutoSize = true;
             this.lblSongCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSongCount.Location = new System.Drawing.Point(458, 181);
+            this.lblSongCount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblSongCount.Location = new System.Drawing.Point(289, 207);
             this.lblSongCount.Name = "lblSongCount";
-            this.lblSongCount.Size = new System.Drawing.Size(0, 56);
+            this.lblSongCount.Size = new System.Drawing.Size(0, 37);
             this.lblSongCount.TabIndex = 14;
+            this.lblSongCount.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // frmPlaylists
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1004, 679);
             this.Controls.Add(this.lblSongCount);
             this.Controls.Add(this.btnLoad);

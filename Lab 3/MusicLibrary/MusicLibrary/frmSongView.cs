@@ -15,19 +15,19 @@ namespace MusicLibrary
     
     public partial class frmSongView : Form
     {
-        OleDbConnection myConnection;
-        string strSQL;
         Song selectedSong;
-        public frmSongView(Song selectedSong)
+        Library myLibrary;
+        public frmSongView(Song selectedSong,Library myLibrary)
         {
             InitializeComponent();
             this.selectedSong = selectedSong;
+            this.myLibrary = myLibrary;
             txtTitle.Text = selectedSong.title;
             txtUrl.Text = selectedSong.albumUrl;
-            txtYear.Text = selectedSong.year.ToString();
-            txtDuration.Text = selectedSong.duration.ToString();
+            txtYear.Text = selectedSong.year;
+            txtDuration.Text = selectedSong.duration;
             txtDesc.Text = selectedSong.desc;
-            txtArtist.Text = selectedSong.artist.ToString();
+            txtArtist.Text = selectedSong.artist;
             txtGenre.Text = selectedSong.genre;
             txtAlbum.Text = selectedSong.album;
             pbxAlbum.Load(selectedSong.albumUrl);
@@ -36,15 +36,15 @@ namespace MusicLibrary
         private void btnSaveChanges_Click(object sender, EventArgs e)
         {
             String ogTitle = selectedSong.title;
-            string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
-            myConnection = new OleDbConnection(strConnection);
-            strSQL = "UPDATE Song SET " + "Title = '" + txtTitle.Text + "', " + "Artist = '" + txtArtist.Text + "', " + "Album = '" + txtAlbum.Text + "', " +
-            "Genre = '" + txtGenre.Text + "', " + "[Desc] = '" + txtDesc.Text + "', " + "[Year] = " + Convert.ToInt32(txtYear.Text) + ", " + "Duration = " + Convert.ToInt32(txtDuration.Text) + ", " +
-            "AlbumURL = '" + txtUrl.Text + "' " + "WHERE Title = '" + ogTitle + "'";
-            OleDbCommand myCommand = new OleDbCommand(strSQL, myConnection);
-            myConnection.Open();
-            myCommand.ExecuteNonQuery();
-            myConnection.Close();
+            String title = txtTitle.Text;
+            String artist = txtArtist.Text;
+            String album = txtAlbum.Text;
+            String year = txtYear.Text;
+            String desc = txtDesc.Text;
+            String genre = txtGenre.Text;
+            String duration = txtDuration.Text;
+            String albumUrl = txtUrl.Text;
+            myLibrary.EditSong(ogTitle, title, artist, album, genre, desc, year, duration, albumUrl);
             MessageBox.Show("Please close window and refresh Library", "Changes Saved");
 
         }
@@ -52,13 +52,7 @@ namespace MusicLibrary
         private void btnDelete_Click(object sender, EventArgs e)
         {
             String ogTitle = selectedSong.title;
-            string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
-            myConnection = new OleDbConnection(strConnection);
-            strSQL = "DELETE FROM Song Where Title = '" + ogTitle + "';";
-            OleDbCommand myCommand = new OleDbCommand(strSQL, myConnection);
-            myConnection.Open();
-            myCommand.ExecuteNonQuery();
-            myConnection.Close();
+            myLibrary.DeleteSong(ogTitle);
             MessageBox.Show("Please close window and refresh Library", "Song Removed");
         }
     }

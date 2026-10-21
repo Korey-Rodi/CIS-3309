@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.OleDb;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MusicLibrary
 {
 
-    public class Song 
+    public class Song
     {
-        public String title {  get; set; }
+        public String title { get; set; }
         public String artist { get; set; }
         public String album { get; set; }
         public String year { get; set; }
@@ -17,8 +19,9 @@ namespace MusicLibrary
         public String genre { get; set; }
         public String duration { get; set; }
         public String albumUrl { get; set; }
-    public Song(String title, String artist, String album, 
-        String year, String desc, String genre, String duration,String albumUrl)
+
+        public Song(String title, String artist, String album,
+            String year, String desc, String genre, String duration, String albumUrl)
         {
             this.title = title;
             this.artist = artist;

@@ -35,7 +35,6 @@ namespace MusicLibrary
             myDataAdapter.Fill(myDataSet, "Playlist");
 
             DataTable PlaylistTable = myDataSet.Tables["Playlist"];
-
             List<Playlist> playlists = new List<Playlist>();
             
 
@@ -43,7 +42,7 @@ namespace MusicLibrary
             {
                 string PlaylistName = row["PlaylistName"].ToString();
                 string Desc = row["Desc"].ToString();
-                DateTime Date = Convert.ToDateTime(row["DateCreated"]);
+                DateTime Date = Convert.ToDateTime(row["DataCreated"]);
                 strSQL = "SELECT Song.* FROM Song INNER JOIN PlaylistSongs " +
             "ON Song.Title = PlaylistSongs.Title " +
             "WHERE PlaylistSongs.PlaylistName = '" + PlaylistName + "'";
@@ -87,9 +86,9 @@ namespace MusicLibrary
             {
                 Playlist selected = (Playlist)cbxPlaylist.SelectedItem;
 
-                lblName.Text = selected.playlistName;
-                lblDesc.Text = selected.Desc;
-                lblSongCount.Text = selected.playlist.Count.ToString();
+                lblName.Text = "Name: " + selected.playlistName;
+                lblDesc.Text = "Desc: " + selected.Desc;
+                lblSongCount.Text = "Songs: " + selected.playlist.Count.ToString();
             }
         }
 

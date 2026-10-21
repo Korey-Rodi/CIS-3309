@@ -215,7 +215,7 @@
             this.btnPlaylists.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlaylists.Location = new System.Drawing.Point(19, 851);
             this.btnPlaylists.Name = "btnPlaylists";
-            this.btnPlaylists.Size = new System.Drawing.Size(848, 45);
+            this.btnPlaylists.Size = new System.Drawing.Size(848, 74);
             this.btnPlaylists.TabIndex = 14;
             this.btnPlaylists.Text = "Playlists";
             this.btnPlaylists.UseVisualStyleBackColor = true;
@@ -226,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(886, 908);
+            this.ClientSize = new System.Drawing.Size(886, 937);
             this.Controls.Add(this.btnPlaylists);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);

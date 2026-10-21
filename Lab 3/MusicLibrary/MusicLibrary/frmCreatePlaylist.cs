@@ -15,7 +15,6 @@ namespace MusicLibrary
     public partial class frmCreatePlaylist : Form
     {
         OleDbConnection myConnection;
-        DataSet myDataSet;
         string strSQL;
         public frmCreatePlaylist()
         {
@@ -35,7 +34,7 @@ namespace MusicLibrary
             myConnection.Open();
             myCommand.ExecuteNonQuery();
             myConnection.Close();
-            MessageBox.Show("Please close window", "Playlist Created");
+            MessageBox.Show("Close and Reopen Playlist Form to view changes", "Playlist Created");
 
 
         }
