@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\musiclibrary\\frmlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmplaylists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmplaylists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmcreateplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\musiclibrary\\frmcreateplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmcreateplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|c:\\users\\rodik\\documents\\github\\cis 3309\\lab 3\\musiclibrary\\musiclibrary\\frmplaylists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\musiclibrary\\frmplaylists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{286422D0-7986-491C-ADA5-848930F380EF}|MusicLibrary\\MusicLibrary.csproj|solutionrelative:musiclibrary\\frmplaylists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\Library.cs",
+              "RelativeDocumentMoniker": "MusicLibrary\\Library.cs",
+              "ToolTip": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\Library.cs*",
+              "RelativeToolTip": "MusicLibrary\\Library.cs*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwHUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:20:57.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmPlaylists.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmPlaylists.cs",
               "RelativeDocumentMoniker": "MusicLibrary\\frmPlaylists.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmCreatePlaylist.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmCreatePlaylist.cs",
               "RelativeDocumentMoniker": "MusicLibrary\\frmCreatePlaylist.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "MusicLibrary\\frmCreatePlaylist.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwCQAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T23:50:31.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T23:50:31.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmPlaylists.cs",
               "DocumentMoniker": "C:\\Users\\rodik\\Documents\\GitHub\\CIS 3309\\Lab 3\\MusicLibrary\\MusicLibrary\\frmPlaylists.cs",
               "RelativeDocumentMoniker": "MusicLibrary\\frmPlaylists.cs",
@@ -75,8 +91,7 @@
               "RelativeToolTip": "MusicLibrary\\frmPlaylists.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAwwA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T23:50:13.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T23:50:13.892Z"
             }
           ]
         }
