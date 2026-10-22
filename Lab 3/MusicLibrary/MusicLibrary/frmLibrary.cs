@@ -51,16 +51,19 @@ namespace MusicLibrary
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            string search = txtSearch.Text;
             if (radGenre.Checked)
             {
-                string search = txtSearch.Text;
                 myLibrary.SearchLibraryGenre(search);
                 dgvLibrary.DataSource = null;
                 dgvLibrary.DataSource = myLibrary.MusicLibrary;
             } else if (radArtist.Checked)
             {
-                string search = txtSearch.Text;
                 myLibrary.SearchLibraryArtist(search);
+                dgvLibrary.DataSource = null;
+                dgvLibrary.DataSource = myLibrary.MusicLibrary;
+            } else if (radYear.Checked) {
+                myLibrary.SearchLibraryYear(search);
                 dgvLibrary.DataSource = null;
                 dgvLibrary.DataSource = myLibrary.MusicLibrary;
             } else

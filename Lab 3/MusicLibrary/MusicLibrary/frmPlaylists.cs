@@ -34,11 +34,11 @@ namespace MusicLibrary
             myDataSet = new DataSet();
             myDataAdapter.Fill(myDataSet, "Playlist");
 
-            DataTable PlaylistTable = myDataSet.Tables["Playlist"];
+            DataTable playlistTable = myDataSet.Tables["Playlist"];
             List<Playlist> playlists = new List<Playlist>();
             
 
-            foreach (DataRow row in PlaylistTable.Rows)
+            foreach (DataRow row in playlistTable.Rows)
             {
                 string PlaylistName = row["PlaylistName"].ToString();
                 string Desc = row["Desc"].ToString();
@@ -51,10 +51,10 @@ namespace MusicLibrary
                 myDataSet = new DataSet();
                 myDataAdapter.Fill(myDataSet, "Song");
 
-                DataTable SongTable = myDataSet.Tables["Song"];
+                DataTable songTable = myDataSet.Tables["Song"];
                 List<Song> songs = new List<Song>();
 
-                foreach (DataRow songRow in SongTable.Rows)
+                foreach (DataRow songRow in songTable.Rows)
                 {
                     string title = songRow["Title"].ToString();
                     string artist = songRow["Artist"].ToString();

@@ -94,6 +94,30 @@ namespace MusicLibrary
             }
 
         }
+        public void SearchLibraryYear(String search)
+        {
+            MusicLibrary.Clear();
+            strSQL = "SELECT * FROM Song WHERE Year = '" + search + "';";
+            myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
+            myDataSet = new DataSet();
+            myDataAdapter.Fill(myDataSet, "Song");
+            DataTable songTable = myDataSet.Tables["Song"];
+            foreach (DataRow row in songTable.Rows)
+            {
+                string title = row["Title"].ToString();
+                string artist = row["Artist"].ToString();
+                string album = row["Album"].ToString();
+                string genre = row["Genre"].ToString();
+                string description = row["Desc"].ToString();
+                string year = row["Year"].ToString();
+                string duration = row["Duration"].ToString();
+                string albumURL = row["AlbumURL"].ToString();
+
+                Song Song = new Song(title, artist, album, year, description, genre, duration, albumURL);
+                MusicLibrary.Add(Song);
+            }
+
+        }
         public void DeleteSong(String title)
         {
             string strConnection = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=Music.accdb;";
